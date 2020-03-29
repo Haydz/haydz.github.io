@@ -30,7 +30,8 @@ twitter_username: haydnjohnson
 github_username:  haydz
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
 
