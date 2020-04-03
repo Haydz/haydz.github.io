@@ -2,5 +2,5 @@
 layout: single
 title: "testing 2nd post on same day"
 ---
-#2nd blog post
+# 2nd blog post
 this is some wording

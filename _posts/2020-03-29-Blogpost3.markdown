@@ -1,0 +1,6 @@
+---
+layout: single
+title: "This is from my Home PC"
+---
+# Blog from home
+installed jekyll on home PC, pulled GH repo. done :) (not that easy)
