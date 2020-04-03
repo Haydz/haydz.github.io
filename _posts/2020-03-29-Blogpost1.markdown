@@ -1,7 +1,0 @@
----
-layout: posts
-title:  "I know how to use Jekyll"
----
-
-#test blog
-some test for fun

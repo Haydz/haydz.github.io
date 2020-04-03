@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "testing 2nd post on same day"
 ---
 # 2nd blog post

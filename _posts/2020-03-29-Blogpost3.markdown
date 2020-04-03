@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: posts
 title: "This is from my Home PC"
 ---
 # Blog from home
