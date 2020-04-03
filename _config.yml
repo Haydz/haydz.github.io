@@ -38,6 +38,13 @@ plugins:
 
 remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 
+defaults:
+  -
+    scope:
+      path: "posts" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
