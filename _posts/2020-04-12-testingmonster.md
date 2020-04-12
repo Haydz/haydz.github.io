@@ -12,7 +12,7 @@ I have been working with Golang strings and how to manipulate them. Working from
 
 
 ## FILE with data being used
-To give a practical application to this post, I have included a rudimenatary SSH auth log I found from the internet (googles). I have repeated lines and changed data so it could be manipulated more.
+To give a practical application to this post, I have included a rudimentary SSH auth log I found from the internet (googles). I have repeated lines and changed data so it could be manipulated more.
 
 Find it below
 ![SSH auth Log](/images/sshinvalid.txt)
@@ -105,6 +105,27 @@ func main() {
 * reading the data in line by line
 * storing the lines into an variable (slice)
 * closing the file
+
+
+
+## Manipulating Data
+To search through a string for a word, the `strings.Contains()` function is used.
+
+`scanner.Text(), "word"` is how the syntax would be for using the Scan.
+
+Since we have data in a slice, we will have to loop through it.
+
+Example slice, which we loop through to test if `string` is in a string.
+{%highlight go linenos %}
+	 testSlice:= []string{"the bbq", "the string has", "not much at all"}
+	for _, value := range testSlice{
+	fmt.Println(strings.Contains(value,"string"))
+	}
+{% endhighlight %}
+ 
+ The Go Playground code to see live:  
+* https://play.golang.org/p/D2nzknlclvH
+ 
 
 
 
