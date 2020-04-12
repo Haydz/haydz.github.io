@@ -15,7 +15,7 @@ I have been working with Golang strings and how to manipulate them. Working from
 To give a practical application to this post, I have included a rudimentary SSH auth log I found from the internet (googles). I have repeated lines and changed data so it could be manipulated more.
 
 Find it below
-![SSH auth Log](/images/sshinvalid.txt)
+[SSH auth Log](/images/sshinvalid.txt)
 
 ## Ingesting a file
 So first off we need data to play with.  
@@ -109,7 +109,9 @@ func main() {
 
 
 ## Manipulating Data
-To search through a string for a word, the `strings.Contains()` function is used.
+
+### Finding a value in string
+To search through a string for a value, the `strings.Contains()` function is used.
 
 `scanner.Text(), "word"` is how the syntax would be for using the Scan.
 
@@ -117,7 +119,7 @@ Since we have data in a slice, we will have to loop through it.
 
 Example slice, which we loop through to test if `string` is in a string.
 {%highlight go linenos %}
-	 testSlice:= []string{"the bbq", "the string has", "not much at all"}
+	testSlice:= []string{"the bbq", "the string has", "not much at all"}
 	for _, value := range testSlice{
 	fmt.Println(strings.Contains(value,"string"))
 	}
@@ -125,6 +127,46 @@ Example slice, which we loop through to test if `string` is in a string.
  
  The Go Playground code to see live:  
 * https://play.golang.org/p/D2nzknlclvH
+
+To print the line, an IF ELSE statement can be used:
+{%highlight go linenos %}
+if strings.Contains(value, "string") == true {
+			fmt.Println(value)
+		}
+{% endhighlight %}
+
+### Separating via whitespace
+#### Similar to linux: cut -d " " 
+
+To separate a string via white space (words) use `strings.Fields()` function.
+Syntax being : `strings.Fields(value)`
+
+Using the the first value from testSlice: `testSlice[0]`:
+{%highlight go linenos %}
+wordBroken := strings.Fields(testSlice[0])
+{% endhighlight %}
+Using testSlice from before, but looping through itr
+{%highlight go linenos %}
+
+for _, value := range testSlice  {
+		wordBreakDown := strings.Fields(value)
+		fmt.Println("==breaking sentence into words==")
+		for _, value := range wordBreakDown {
+			fmt.Println(value)
+		}
+
+	}
+{% endhighlight %}
+
+
+
+
+THIS IS for value
+To separate a string by a delimeter use `strings.FieldsFunc` function.
+Syntacx being
+
+
+
  
 
 
