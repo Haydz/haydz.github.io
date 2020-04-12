@@ -154,18 +154,14 @@ for _, value := range testSlice  {
 		for _, value := range wordBreakDown {
 			fmt.Println(value)
 		}
+
 	}
 {% endhighlight %}
 
-The Go Play Ground code to see this live:
-* https://play.golang.org/p/8Ga-Tb-c_PP
-
-
-### Separating via a delimiter 
 
 
 
-THIS IS for delimter
+THIS IS for value
 To separate a string by a delimeter use `strings.FieldsFunc` function.
 Syntacx being
 
