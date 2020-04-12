@@ -3,7 +3,7 @@ layout: posts
 title: "Golang Parsing Strings"
 ---
 
-#Parsing Strings in Golang
+# Parsing Strings in Golang
 
 I have been working with Golang strings and how to manipulate them. Working from other blogs posts I've found. When I sit down to code, I seem to forget everything from the previous session. This post is to be a cheat sheet for myself on string manipulation.
 
@@ -19,6 +19,20 @@ So first off we need data to play with.
 We could work with a simple string like:
 
 `testString := "a long string"`
+
+But that is no fun.
+
+So this is how to open a file & check for errors:
+{%highlight go linenos %}
+file, err := os.Open("sshinvalid.txt")
+if err != nil {
+	fmt.Println("opening file error", err)
+}
+
+{% endhighlight %}
+
+
+
 
 
 
