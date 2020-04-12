@@ -4,4 +4,4 @@
 
 layout: home
 ---
-[ABOUT SECTION](/about)
+[ABOUT ME](/about)
