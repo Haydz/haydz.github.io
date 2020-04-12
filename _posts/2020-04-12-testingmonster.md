@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Testing Monster.md"
+title: "Golang Parsing Strings"
 ---
 
 #testing lol
@@ -10,3 +10,4 @@ title: "Testing Monster.md"
 
 
 ![](testprintscreen.png)
+
