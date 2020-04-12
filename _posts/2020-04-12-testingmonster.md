@@ -11,6 +11,11 @@ I have been working with Golang strings and how to manipulate them. Working from
 * https://medium.com/golangspec/in-depth-introduction-to-bufio-scanner-in-golang-55483bb689b4
 
 
+## FILE with data being used
+To give a practical application to this post, I have included a rudimenatary SSH auth log I found from the internet (googles). I have repeated lines and changed data so it could be manipulated more.
+
+Find it below
+![SSH auth Log](/images/sshinvalid.txt)
 
 ## Ingesting a file
 So first off we need data to play with.  
@@ -73,6 +78,36 @@ I prefer to store data into a variable because it is easier for me to read. You 
 {%highlight go linenos %}
 file.Close
 {% endhighlight %}
+
+
+### Code up to this point:
+{%highlight go linenos %}
+func main() {
+
+	file, err := os.Open("sshinvalid.txt")
+	if err != nil {
+		fmt.Println("opening file error", err)
+	}
+
+	scanner := bufio.NewScanner(file)
+	scanner.Split(bufio.ScanLines)
+	var txtlines []string
+
+	for scanner.Scan() {
+		txtlines = append(txtlines, scanner.Text())
+	}
+	file.Close()
+{% endhighlight %}
+
+
+## What has been done so far  
+* Opening a file
+* reading the data in line by line
+* storing the lines into an variable (slice)
+* closing the file
+
+
+
 
 
 
