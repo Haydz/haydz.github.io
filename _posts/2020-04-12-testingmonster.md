@@ -9,5 +9,5 @@ title: "Golang Parsing Strings"
 
 
 
-![](testprintscreen.png)
+![asdas](testprintscreen.png)
 
