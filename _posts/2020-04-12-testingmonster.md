@@ -36,7 +36,7 @@ If the file is open, we will now want to read the file.
 Use the scanner package:
 > Package scanner provides a scanner and tokenizer for UTF-8-encoded text. It takes an io.Reader providing the source, which then can be tokenized through repeated calls to the Scan function. For compatibility with existing tools, the NUL character is not allowed.
 
-In short: it scannes UTF-8-encoded text
+In short: it scans UTF-8-encoded text
 
 Need to read the file and split it (file is from the above example)
 
@@ -46,6 +46,33 @@ scanner.Split(bufio.ScanLines)
 {% endhighlight %}
 
 
+### Reading line by line + Adding to an array
+Generally the data needs to be stored into a variable so that it can be manipulated.
+Create a string slice to place the data in, then loop through each line.
+
+`scanner.Scan()` holds the boolean of true or false if there is text
+`scanner.Text()` holds the data we want to manipular
+
+Create a string slice to place the data in, then loop through each line of `Scanner.Text()` 
+
+{%highlight go linenos %}
+var txtlines []string
+
+for scanner.Scan() {
+	txtlines = append(txtlines, scanner.Text())
+}
+
+{% endhighlight %}
+
+
+### Closing file
+Once placing the data into a variable, we can close the file.  
+I prefer to store data into a variable because it is easier for me to read. You are welcome to edit the data within the `for scann.Scan()` loop directly instead of storing it into a variable.
+
+
+{%highlight go linenos %}
+file.Close
+{% endhighlight %}
 
 
 
