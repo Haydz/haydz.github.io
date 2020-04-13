@@ -2,8 +2,6 @@
 layout: posts
 title: "OpenSoc Experience  & ElearnSecurity IR Course"
 ---
-# Intro
-
 So Thursday (April 9th) I participated in an online blue team defense simulation event, known as OpenSOC.
 
 What follows is:
@@ -74,6 +72,21 @@ Sorry I did not get a screenshot of the Challenge page. But there were lots of c
 Again it was all browser based:
 ![](../images/opensoc_6.png)
 
+### The tools
+Graylog was used as the SIEM.
+molo-ch was for full PCAP analysis
+OSquery - for endpoint visiblity
+
+
+You can see my setup in Graylog here. I added some fields to help with a challenge I was on at the time.
+
+![](../images/opensoc_9.png)
+
+
+<> had created a GUI to run OSquery. I thought this was amazing because it makes it accessible to so many participants:  
+![](../images/opensoc_10.png)
+
+
 ### Challenges
 The challenges varied and required different skill sets:  
 * Network Traffic Analysis
@@ -98,9 +111,10 @@ Our team consisted of Canadians:
 * A pentester
 * A Pentester
 
-Excited to say I ended up getting the most points for the team. In hacker CTFs I have always struggled, so this was a pleasant suprise:
+Excited to say I ended up getting the most points for the team. In hacker CTFs I have always struggled, so this was a pleasant surpise:
 
-![Points](../images/opensoc_7.png)
+![Points](/images/opensoc_7.png)
 
 As other team members work slowed down, we were able to pick up more points:  
-![](../images/opensoc_8.png)
+![overtime](/images/opensoc_8.png)
+
