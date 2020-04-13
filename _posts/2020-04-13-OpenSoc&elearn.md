@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "OpenSoc Experience  & ElearnSecurity IR Course"
+title: "OpenSoc Experience  & My IR Course"
 ---
 So Thursday (April 9th) I participated in an online blue team defense simulation event, known as OpenSOC.
 
@@ -37,7 +37,12 @@ Twitter... Seriously twitter!
 
 A post came across my feed asking for interested. I responded and apparently so did enough people that we had 700 people during the event.
 
-## REminder to add Tweet here ##
+
+Sign up was here:  
+![](../images/opensoc_11.png)
+
+Twitter is great:  
+![](../images/opensoc_12.png)
 
 
 # The Event And My Experience
