@@ -53,8 +53,7 @@ There is a great course from "Applied Network Defense" that I had started but ne
 
 ![OSquery](/images/opensoc_2.png)
  
-I had completed the eLearnSecurity Incident Responder certification exam in December (course found here: [Course](https://www.elearnsecurity.com/course/incident_handling_response_professional/_. So I had a large list of investigating queries to use. For my exam I had them in Splunk and ELK search formats) (not all of them), so I thought it would be easy enough to 
-
+I had completed the eLearnSecurity Incident Responder certification exam in December (course found here: [Course](https://www.elearnsecurity.com/course/incident_handling_response_professional/_. So I had a large list of investigating queries to use. For my exam I had them in Splunk and ELK search formats) )(not all of them), so I thought it would be easy enough to convert them to Graylog. Or at least use as a reference sheet.
 
 ![Query](/images/opensoc_3.png)
 
