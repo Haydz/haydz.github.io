@@ -53,8 +53,17 @@ There is a great course from "Applied Network Defense" that I had started but ne
 
 ![OSquery](/images/opensoc_2.png)
  
-I had completed the eLearnSecurity Incident Responder certification exam in December (course found here: [Course](https://www.elearnsecurity.com/course/incident_handling_response_professional/_. So I had a large list of investigating queries to use. For my exam I had them in Splunk and ELK search formats) )(not all of them), so I thought it would be easy enough to convert them to Graylog. Or at least use as a reference sheet.
+I had completed the eLearnSecurity Incident Responder certification exam in December (course found here: [IHRP](https://www.elearnsecurity.com/course/incident_handling_response_professional/). So I had a large list of investigating queries to use. For my exam I had them in Splunk and ELK search formats) ![IHRP](/images/opensoc_4.png).
+
+So I thought it would be easy enough to convert them to Graylog. Or at least use as a reference sheet.
 
 ![Query](/images/opensoc_3.png)
 
+
+There were other things I did, but best not give them all away. 
+
+## The Event
+The event was not a live defense like a normal red team vs blue team event. It was a browser based blue team investigative CTF. It was amazing.
+
+Being browser based made it much more accessible. Participants did not need a laptop that could handle a virtual machine, or RDP. They just needed something that could run a browser!
 
