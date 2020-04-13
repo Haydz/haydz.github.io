@@ -67,3 +67,40 @@ The event was not a live defense like a normal red team vs blue team event. It w
 
 Being browser based made it much more accessible. Participants did not need a laptop that could handle a virtual machine, or RDP. They just needed something that could run a browser!
 
+
+Sorry I did not get a screenshot of the Challenge page. But there were lots of challenges!
+![404 page](/images/opensoc_5.png)
+
+Again it was all browser based:
+![](../images/opensoc_6.png)
+
+### Challenges
+The challenges varied and required different skill sets:  
+* Network Traffic Analysis
+* Log correlation
+* Understanding attacker methodology
+* Windows & Linux experience
+* Log awareness - which logs had what information
+This is not a full list. I as focused on my challenges which were mostly between using Graylog, molo-ch and OSquery.
+
+There were some memory analysis and Virtual Machines that could be downloaded as well.
+
+### How Did My Team Do
+Well.. Not great, but also not bad!
+We finished 44th place out of 194 teams! Which personally is a great achievement.
+
+Even though I had the day off work (thanks Boss!) it ended up being a busy day off the OpenSoc challenges.  I was still fortunate to smash about 6-8 hours (give or take) in the event. 
+
+Our team consisted of Canadians:
+* Me - Security Manager
+* A red teamer  
+* A co-op student of mine (totes pro)
+* A pentester
+* A Pentester
+
+Excited to say I ended up getting the most points for the team. In hacker CTFs I have always struggled, so this was a pleasant suprise:
+
+![Points](../images/opensoc_7.png)
+
+As other team members work slowed down, we were able to pick up more points:  
+![](../images/opensoc_8.png)
