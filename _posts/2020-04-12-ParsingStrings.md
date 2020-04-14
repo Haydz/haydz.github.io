@@ -187,7 +187,7 @@ func main() {
 
 
 This is really difficult to understand.  
-So it is easier to understand as giving a second parmareter of a function that returns a bool value (true or false). Another way, is a function that confirms true or false if a separator is in the stings. (least that is how I simplyfy it.)
+It is easier to understand this function as giving it a a second parameter of a function that returns a bool value (true or false). Another way, is a function that confirms true or false if a separator is in the stings. (least that is how I simplyfy it.) This function is within the function.
 
 So cutting a comma from `testSlice:= "the bbq, the string has, not much at all"` would look like:
 
@@ -203,14 +203,14 @@ So cutting a comma from `testSlice:= "the bbq, the string has, not much at all"`
 	fmt.Println(cuttingByTwo)
 {% endhighlight %}
 
+Which outputs:
+![](/images/GolangString/image_2.png)
+
+[The Go Playground code](https://play.golang.org/p/qXqlRJ_pJ8Q)
 
 
 
-
-
-THIS IS for value
-To separate a string by a delimeter use `strings.FieldsFunc` function.
-Syntacx being
+### Separate by 2 delimters (or more)
 
 
 
