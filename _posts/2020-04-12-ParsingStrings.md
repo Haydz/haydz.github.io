@@ -215,7 +215,7 @@ Which outputs:
 
 
 ### Separate by 2 delimiters (or more)
-The process is the same as one delimter that is not space, you just add an OR statement with the 2nd delimiter.
+The process is the same as one delimiter that is not space, you just add an OR statement with the 2nd delimiter.
 
 The example string will be: `testSlice:= "we want just the port number: [8080]"`
 {%highlight go linenos %}
@@ -238,6 +238,8 @@ To do this via the command line you would do:
 `echo "we want just the port number: [8080]" | cut -d "[" -f2 | cut -d "]" -f1 8080`
 
 	
+	
+Hope this helps with parsing strings.
 	
 
 	
