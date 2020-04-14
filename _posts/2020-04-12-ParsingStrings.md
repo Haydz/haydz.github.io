@@ -55,8 +55,8 @@ scanner.Split(bufio.ScanLines)
 Generally the data needs to be stored into a variable so that it can be manipulated.
 Create a string slice to place the data in, then loop through each line.
 
-`scanner.Scan()` holds the boolean of true or false if there is text
-`scanner.Text()` holds the data we want to manipular
+`scanner.Scan()` holds the Boolean of true or false if there is text
+`scanner.Text()` holds the data we want to manipulate
 
 Create a string slice to place the data in, then loop through each line of `Scanner.Text()` 
 
@@ -157,6 +157,11 @@ for _, value := range testSlice  {
 
 	}
 {% endhighlight %}
+
+[The Go Playground code](https://play.golang.org/p/wyVKZg4A9g4)
+The output for this is below:  
+![](/images/GolangString/image_1.png)
+
 
 
 
