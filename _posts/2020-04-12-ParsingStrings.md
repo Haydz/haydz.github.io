@@ -169,7 +169,7 @@ I definitely had to research this.
 To separate by something other than a space, use the `strings.FieldFunc()`. Which comes in the format of
 `func FieldsFunc(s string, f func(rune) bool) []string`
 
-The example given is:
+The example given is [from](https://golang.org/pkg/strings/#FieldsFunc):
 > package main
 >
 import (
@@ -187,7 +187,7 @@ func main() {
 
 
 This is really difficult to understand.  
-It is easier to understand this function as giving it a a second parameter of a function that returns a bool value (true or false). Another way, is a function that confirms true or false if a separator is in the stings. (least that is how I simplyfy it.) This function is within the function.
+It is easier to understand this function as giving it a a second parameter of a function that returns a bool value (true or false). Another way, is a function that confirms true or false if a separator is in the stings. (least that is how I simplify it.) This function is within the function.
 
 So cutting a comma from `testSlice:= "the bbq, the string has, not much at all"` would look like:
 
@@ -204,13 +204,36 @@ So cutting a comma from `testSlice:= "the bbq, the string has, not much at all"`
 {% endhighlight %}
 
 Which outputs:
+
+
 ![](/images/GolangString/image_2.png)
 
 [The Go Playground code](https://play.golang.org/p/qXqlRJ_pJ8Q)
 
 
 
-### Separate by 2 delimters (or more)
+### Separate by 2 delimiters (or more)
+The process is the same as one delimter that is not space, you just add an OR statement with the 2nd delimiter.
+
+The example string will be: `testSlice:= "we want just the port number: [8080]"`
+
+testSlice:= "we want just the port number: [8080]"
+
+	cuttingByTwo := strings.FieldsFunc(testSlice, func(r rune) bool {
+		if r == '[' || r == ']' {
+			return true
+		}
+		return false
+	})
+	fmt.Println(cuttingByTwo[1])4
+	
+
+
+To do this via the command line you would do:
+echo "we want just the port number: [8080]" | cut -d "[" -f2 | cut -d "]" -f1 8080
+	
+
+
 
 
 
