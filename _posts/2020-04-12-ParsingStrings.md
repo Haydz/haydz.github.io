@@ -163,7 +163,49 @@ The output for this is below:
 ![](/images/GolangString/image_1.png)
 
 
-### Separating by a delimeter
+### Separating by a delimiter
+I definitely had to research this.
+
+To separate by something other than a space, use the `strings.FieldFunc()`. Which comes in the format of
+`func FieldsFunc(s string, f func(rune) bool) []string`
+
+The example given is:
+> package main
+>
+import (
+	"fmt"
+	"strings"
+	"unicode"
+)
+>
+func main() {
+	f := func(c rune) bool {
+		return !unicode.IsLetter(c) && !unicode.IsNumber(c)
+	}
+	fmt.Printf("Fields are: %q", strings.FieldsFunc("  foo1;bar2,baz3...", f))
+}
+
+
+This is really difficult to understand.  
+So it is easier to understand as giving a second parmareter of a function that returns a bool value (true or false). Another way, is a function that confirms true or false if a separator is in the stings. (least that is how I simplyfy it.)
+
+So cutting a comma from `testSlice:= "the bbq, the string has, not much at all"` would look like:
+
+{%highlight go linenos %}
+	testSlice := "the bbq, the string has, not much at all"
+
+	cuttingByTwo := strings.FieldsFunc(testSlice, func(r rune) bool {
+		if r == ',' {
+			return true
+		}
+		return false
+	})
+	fmt.Println(cuttingByTwo)
+{% endhighlight %}
+
+
+
+
 
 
 THIS IS for value
