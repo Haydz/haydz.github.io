@@ -145,7 +145,7 @@ Using the the first value from testSlice: `testSlice[0]`:
 {%highlight go linenos %}
 wordBroken := strings.Fields(testSlice[0])
 {% endhighlight %}
-Using testSlice from before, but looping through itr
+Using testSlice from before, but looping through it
 {%highlight go linenos %}
 
 for _, value := range testSlice  {
@@ -163,7 +163,7 @@ The output for this is below:
 ![](/images/GolangString/image_1.png)
 
 
-
+### Separating by a delimeter
 
 
 THIS IS for value
