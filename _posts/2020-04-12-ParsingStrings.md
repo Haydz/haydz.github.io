@@ -16,6 +16,8 @@ To give a practical application to this post, I have included a rudimentary SSH 
 
 Find it below
 [SSH auth Log](/images/sshinvalid.txt)
+Code to play with this auth log based on the below can be found here on  
+[Github](https://github.com/Haydz/blackhatgo/blob/master/src/texto/ssh_cutgrepsort.go)
 
 ## Ingesting a file
 So first off we need data to play with.  
@@ -216,7 +218,7 @@ Which outputs:
 The process is the same as one delimter that is not space, you just add an OR statement with the 2nd delimiter.
 
 The example string will be: `testSlice:= "we want just the port number: [8080]"`
-
+{%highlight go linenos %}
 testSlice:= "we want just the port number: [8080]"
 
 	cuttingByTwo := strings.FieldsFunc(testSlice, func(r rune) bool {
@@ -225,12 +227,20 @@ testSlice:= "we want just the port number: [8080]"
 		}
 		return false
 	})
-	fmt.Println(cuttingByTwo[1])4
-	
+	fmt.Println(cuttingByTwo[1])
+{% endhighlight %}
+
+[The Go Playground](https://play.golang.org/p/njUEWhAADhA) code	
 
 
 To do this via the command line you would do:
-echo "we want just the port number: [8080]" | cut -d "[" -f2 | cut -d "]" -f1 8080
+
+`echo "we want just the port number: [8080]" | cut -d "[" -f2 | cut -d "]" -f1 8080`
+
+	
+	
+
+	
 	
 
 
