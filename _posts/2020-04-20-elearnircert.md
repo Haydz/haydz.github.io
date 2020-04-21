@@ -16,7 +16,7 @@ It was released last year in January.
 ## Who is it by?
 [elearnSecrutiy](https://www.elearnsecurity.com/company/about_us)
 This company is based in Italy and the US as you can see in the about us section.
-![Logo](/images/ihrp/elearn1.png)
+![](/images/ihrp/elearn4.png)
 ## Why Did I choose this course?
 The security training space is very wide both in cost and quality.
 You don't always get what you pay for. I am quite skeptical of training providers and associated costs. I work as security a manager with analyst/pentest responsibilities. So the training I needed had to be applicable to my day job.
@@ -66,8 +66,52 @@ A Splunk search for pvileges that can be abused:
 #### Job Applicability
 I imagine it would be beneficial if I went for a job related to a SOC or IR, being able to say I have a cheatsheet, or like a playbook guide to my investigations. This shows even though I may not do IR every day, I think about what I am doing, what works and what does not, instead of starting from scratch each time.
 
+The benefit for me, is that it keeps my options open. I am still fine tuning my career and want to be able to change career paths.
 
-### 
+
+### Hands on with a variety of tools
+Full transparency, the exam does not cover the tools. The exam covers Splunk, ELK and PCAP analysis.
+
+The labs do a fine job of getting you acquainted with the tools and providing varying levels of depth. Sometimes going beyond the tool.
+
+The tools covered include:  
+Incident Response Platforms
+ * Velociraptor
+ * GRR (Google Rapid Response)
+
+
+IDS/IPS:
+* Zeek/Bro
+* Snort
+* Suricata
+
+SIEM Platforms:  
+* Splunk
+* ELK
+
+#### IR platforms
+These were good just to be able to understand the benefits of having a centralized platform for IR, including being able to pull information such as a list of files in a suspect directory.
+
+
+#### IPS/IDS
+Not having to rely on one tool will be beneficial. Especially if consulting at different clients.
+
+The value I found in here, was being able to evaluate the pros and cons of the tools. Such as skill required, effort to maintain or tune and or cost of deployment (purchase price, time & effort).
+
+Obviously at a company, we use an IDS/IPS and it was beneficial to be able to make sure that at my job we could get the most out of the platform, such as tuning it a bit better or understanding its limitations better.
+
+Because it is not my day to day role, I wrote a blog post based on some of the learning on zeek  [here](https://thehackerwhorolls.home.blog/2019/11/05/zeek-bro-cheat-sheet/). it is very short but will help me quickly be able to read a PCAP and or write a rule if needed.
+
+
+
+
+
+
+### Job Applicability
+For someone junior, being exposed to the tools and having a go at writing your own rules would be invaluable.
+
+For someone like myself, the value is also in being able to run the tool and tune rules, but also understanding how it gets deployed, the effort to maintain it, where the sensors should be. How to justify the value of the tool (via understanding what it does and what it does not do) to upper management.
+
 
 
 
