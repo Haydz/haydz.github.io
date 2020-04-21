@@ -6,7 +6,9 @@ title: "Incident Handling Certification"
 Since I blogged about my experience at OpenSoc I wanted to expand on the value I found in my eLearnSecuirty incident response course. What you will find below is a bit of a review of the course itself and the exam.
 
 # What to expect:
-A review based on my specific circumstances and the value I myself gained from the certification
+A review based on my specific circumstances and the value I myself gained from the certification.
+
+A serious alternative to training that is triple the cost.
 
 # What course?
 The course I signed up for was [Incident Handling & Response Professional](https://www.elearnsecurity.com/course/incident_handling_response_professional/)
@@ -43,6 +45,13 @@ Detect and even (proactively) hunt for intrusions by analyzing traffic, flows an
 Gives you access to dedicated forums
 Makes you a proficient professional incident responder
 After obtaining the eCIRv1 certification qualifies you for 40 CPE
+
+# The Exam Format  
+First off, the interest will probably be with the "What is the certification exam like" or "what do I get out of the exam"
+
+I have done a practical hands on exam on offensive security and a multiple choice exam for offensive security. I learned, applied and retained much more in a practical exam.
+
+
 
 ## What I learned from the course
 This is NOT an exhaustive description
@@ -92,6 +101,8 @@ SIEM Platforms:
 #### IR platforms
 These were good just to be able to understand the benefits of having a centralized platform for IR, including being able to pull information such as a list of files in a suspect directory.
 
+I did not have to set these up myself, the labs had it all insatlled.
+
 
 #### IPS/IDS
 Not having to rely on one tool will be beneficial. Especially if consulting at different clients.
@@ -105,8 +116,6 @@ Because it is not my day to day role, I wrote a blog post based on some of the l
 
 
 
-
-
 ### Job Applicability
 For someone junior, being exposed to the tools and having a go at writing your own rules would be invaluable.
 
@@ -114,8 +123,14 @@ For someone like myself, the value is also in being able to run the tool and tun
 
 
 
+# Quality / Size of the Theory
+There is a lot. It is extremely important to learn and it is a lot. Try to drink from the fire hose and you will burn out.
+
+Reading standard text is never fun, but critical. For example, if you don't know which windows event log and type shows a remote login, how will you know to search for it in Splunk? The answer is [4624](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4624) with a logon type 3 for Network.
+
+Which is part of the cheat sheets I created:
+![](/images/ihrp/elearn5.png)
 
 
-
-# Quality of the Theory
+For transparency: Yes there are some grammatical mistakes. The author is from Italy originally so it is understandable. His expertise is within IR not English "_"
 
