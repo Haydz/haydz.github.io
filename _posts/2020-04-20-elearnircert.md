@@ -16,7 +16,7 @@ The course I signed up for was [Incident Handling & Response Professional](https
 It was released last year in January.
 
 ## Who is it by?
-[elearnSecrutiy](https://www.elearnsecurity.com/company/about_us)
+[elearnSecurity](https://www.elearnsecurity.com/company/about_us)
 This company is based in Italy and the US as you can see in the about us section.
 ![](/images/ihrp/elearn4.png)
 ## Why Did I choose this course?
@@ -51,6 +51,7 @@ First off, the interest will probably be with the "What is the certification exa
 
 I have done a practical hands on exam on offensive security and a multiple choice exam for offensive security. I learned, applied and retained much more in a practical exam.
 
+The exam is all hands-on. There are zero multiple choice questions. It is scenario based (2) requiring not just technical knowledge of Splunk and ELK but understanding the business and its critical assets.
 
 
 ## What I learned from the course
@@ -101,7 +102,7 @@ SIEM Platforms:
 #### IR platforms
 These were good just to be able to understand the benefits of having a centralized platform for IR, including being able to pull information such as a list of files in a suspect directory.
 
-I did not have to set these up myself, the labs had it all insatlled.
+I did not have to set these up myself, the labs had it all installed.
 
 
 #### IPS/IDS
@@ -116,10 +117,17 @@ Because it is not my day to day role, I wrote a blog post based on some of the l
 
 
 
-### Job Applicability
+#### Job Applicability
 For someone junior, being exposed to the tools and having a go at writing your own rules would be invaluable.
 
 For someone like myself, the value is also in being able to run the tool and tune rules, but also understanding how it gets deployed, the effort to maintain it, where the sensors should be. How to justify the value of the tool (via understanding what it does and what it does not do) to upper management.
+
+### Attacker Methodology - From the Blue side
+
+
+#### Job Applicability
+
+
 
 
 
