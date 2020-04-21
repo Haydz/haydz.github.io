@@ -5,10 +5,12 @@ title: "Incident Handling Certification"
 
 Since I blogged about my experience at OpenSoc I wanted to expand on the value I found in my eLearnSecuirty incident response course. What you will find below is a bit of a review of the course itself and the exam.
 
+This post not only is intended to help others identify other training options but also to serve as a refresh of content I learned.
+
 # What to expect:
 A review based on my specific circumstances and the value I myself gained from the certification.
 
-A serious alternative to training that is triple the cost.
+A serious alternative to the more widely marketed training at a fraction of the cost.
 
 # What course?
 The course I signed up for was [Incident Handling & Response Professional](https://www.elearnsecurity.com/course/incident_handling_response_professional/)
@@ -19,11 +21,16 @@ It was released last year in January.
 [elearnSecurity](https://www.elearnsecurity.com/company/about_us)
 This company is based in Italy and the US as you can see in the about us section.
 ![](/images/ihrp/elearn4.png)
-## Why Did I choose this course?
-The security training space is very wide both in cost and quality.
-You don't always get what you pay for. I am quite skeptical of training providers and associated costs. I work as security a manager with analyst/pentest responsibilities. So the training I needed had to be applicable to my day job.
 
-I don't work at a company where security itself is a revenue generator, for example it does not do penetration testing as a consultancy. It is also not very large. These 2 things mean I have a certain sized training budget that will not cover premium well known (or should I say highly marketed) training providers.
+![](/images/ihrp/elearn8.png)
+
+## Why Did I choose this course?
+The security training space is very wide, both in cost and quality.
+You don't always get what you pay for. I am quite skeptical of training providers, associated costs and 'certifications' in general. I'm certainly not an expert, I use certifications as a guideline for my learning path, not the end all be all.
+
+I work as security a manager with analyst/pentest responsibilities. So the training I needed had to be applicable to my day job.
+
+I don't work at a company where security itself is a revenue generator, for example it does not do penetration testing as a consultancy. It is also not very large. These 2 things mean I have a certain sized training budget that will not cover premium well known training providers.
 
 So my criteria was:  
 * Good quality training
@@ -49,9 +56,39 @@ After obtaining the eCIRv1 certification qualifies you for 40 CPE
 # The Exam Format  
 First off, the interest will probably be with the "What is the certification exam like" or "what do I get out of the exam"
 
-I have done a practical hands on exam on offensive security and a multiple choice exam for offensive security. I learned, applied and retained much more in a practical exam.
+I have done a practical hands on exam in offensive security and a multiple choice exam for offensive security. I learned, applied and retained much more in a practical exam setting.
 
-The exam is all hands-on. There are zero multiple choice questions. It is scenario based (2) requiring not just technical knowledge of Splunk and ELK but understanding the business and its critical assets.
+The exam is all hands-on. There are zero multiple choice questions. It is scenario based (2) requiring not just technical knowledge of Splunk and ELK but understanding the business and its critical assets. 
+
+The practical portion, the investigating, looking at logs is 2 full days. The time given is 2 days, you most likely will not need it all so make sure you get sleep.
+
+There is also 2 days for report writing. That is, take all the notes from the practical portion and reporting on the what the attacker 'did'. That could be anything from the Cyber Kill Chain, such as initial infection, moving to different systems, persistence and or something related to "acting on objectives". 
+
+More can be read [Here](https://www.elearnsecurity.com/certification/ecir/)
+
+## Difficulty of exam
+Investigation is contextual based on critical assets, initial infection and the network. 
+
+The exam is difficult in that identifying each technique and stage on the kill chain is not a point and click exercise, nor is it to the extreme difficulty where you need years of experience in the field. 
+
+The exam for me at least seemed balanced between requiring most of the investigation techniques taught in the course and requiring use of the "process of investigation" taught in the course. By process of investigation I mean following the indicators that you have found instead of copy pasting pre-made queries (like my cheat sheet).
+
+Side note: The sources in the exam platforms are not the same as in the lab. So copy and paste will not work.
+
+### Prepping for the exam
+For all intent and purpose, the course teaches you what you need to pass the exam.
+
+However in saying that, if all you do is the course the exam might be a fight or not flow as easy.  
+  
+It is a good idea to spend extra time in the platformns
+
+
+
+
+
+
+
+
 
 
 ## What I learned from the course
@@ -112,7 +149,10 @@ The value I found in here, was being able to evaluate the pros and cons of the t
 
 Obviously at a company, we use an IDS/IPS and it was beneficial to be able to make sure that at my job we could get the most out of the platform, such as tuning it a bit better or understanding its limitations better.
 
-Because it is not my day to day role, I wrote a blog post based on some of the learning on zeek  [here](https://thehackerwhorolls.home.blog/2019/11/05/zeek-bro-cheat-sheet/). it is very short but will help me quickly be able to read a PCAP and or write a rule if needed.
+Because it is not my day to day role, I wrote a blog post based on some of the learning on zeek  [here](https://thehackerwhorolls.home.blog/2019/11/05/zeek-bro-cheat-sheet/). it is very short but will help me quickly be able to read a PCAP and or write a rule if needed. - It is also on my old blog site (horrible and ugly to edit and look at)
+
+
+<> ADD SURICATA BLOG LINK HERE
 
 
 
@@ -129,10 +169,31 @@ For someone like myself, the value is also in being able to run the tool and tun
 
 
 
+### US Job Applicability
+The courses such as this one a design around the NIST [NICE Cybersecurity Workforce framework](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-cybersecurity-workforce-framework-resource-center)
 
+[PDF HERE](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-181.pdf)
+
+From their website
+> The NICE Framework, NIST Special Publication 800-181, is a national-focused resource that categorizes and describes cybersecurity work.
+
+and 
+> Current and future cybersecurity workers, to help explore Tasks and Work Roles and assist with understanding the KSAs that are being valued by employers for in-demand cybersecurity jobs and positions.
+
+IHRP/eCIR is developed towards:  
+Develops proficiency towards NIST role:
+
+* Cyber Defense Incident Responder
+* Law Enforcement/Counterintelligence Forensics Analyst
+* Cyber Defense Forensics Analyst
+
+Upon looking at the PDF, the description of Cyber Incident Responsder and Cyber Defense Incident Response appear to match with the content of the course.
+
+![](../images/ihrp/elearn6.png)
+![](../images/ihrp/elearn7.png)
 
 # Quality / Size of the Theory
-There is a lot. It is extremely important to learn and it is a lot. Try to drink from the fire hose and you will burn out.
+There is a lot. It is extremely important to learn and can be overwhelming. Try to drink from the fire hose and you will burn out. I see this as a necessary evil due to the complexities of what attackers can do on a machine, on both Linux and Windows.
 
 Reading standard text is never fun, but critical. For example, if you don't know which windows event log and type shows a remote login, how will you know to search for it in Splunk? The answer is [4624](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4624) with a logon type 3 for Network.
 
@@ -140,5 +201,5 @@ Which is part of the cheat sheets I created:
 ![](/images/ihrp/elearn5.png)
 
 
-For transparency: Yes there are some grammatical mistakes. The author is from Italy originally so it is understandable. His expertise is within IR not English "_"
+For transparency: Yes there are some grammatical errors. The author is from Italy originally so it is understandable. His expertise is within IR not English.
 
