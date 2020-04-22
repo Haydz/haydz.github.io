@@ -10,7 +10,8 @@ This post not only is intended to help others identify other training options bu
 # What to expect:
 A review based on my specific circumstances and the value I myself gained from the certification.
 
-A serious alternative to the more widely marketed training at a fraction of the cost.
+
+eLearnSecurity is a serious alternative to other training providers that can cost up to 3 times more.
 
 # What course?
 The course I signed up for was [Incident Handling & Response Professional](https://www.elearnsecurity.com/course/incident_handling_response_professional/)
@@ -18,9 +19,8 @@ The course I signed up for was [Incident Handling & Response Professional](https
 It was released last year in January.
 
 ## Who is it by?
-[elearnSecurity](https://www.elearnsecurity.com/company/about_us)
+[eLearnSecurity](https://www.elearnsecurity.com/company/about_us)
 This company is based in Italy and the US as you can see in the about us section.
-![](/images/ihrp/elearn4.png)
 
 ![](/images/ihrp/elearn8.png)
 
@@ -58,44 +58,46 @@ First off, the interest will probably be with the "What is the certification exa
 
 I have done a practical hands on exam in offensive security and a multiple choice exam for offensive security. I learned, applied and retained much more in a practical exam setting.
 
-The exam is all hands-on. There are zero multiple choice questions. It is scenario based (2) requiring not just technical knowledge of Splunk and ELK but understanding the business and its critical assets. 
+The exam is all hands-on. There are zero multiple choice questions. It is scenario based (2) requiring not just technical knowledge of Splunk and ELK but understanding the business and its critical assets. There is a component of network traffic analysis to mix it up and give another way  to gain visibility on the attack.
 
 The practical portion, the investigating, looking at logs is 2 full days. The time given is 2 days, you most likely will not need it all so make sure you get sleep.
 
-There is also 2 days for report writing. That is, take all the notes from the practical portion and reporting on the what the attacker 'did'. That could be anything from the Cyber Kill Chain, such as initial infection, moving to different systems, persistence and or something related to "acting on objectives". 
+There is also 2 days for report writing. That is, take all the notes from the practical portion and reporting on the what the attacker 'did'. That could be anything from theCyber Kill Chain, such as initial infection, moving to different systems, persistence and or something related to "acting on objectives". 
 
 More can be read [Here](https://www.elearnsecurity.com/certification/ecir/)
 
 ## Difficulty of exam
-Investigation is contextual based on critical assets, initial infection and the network. 
+Investigation is contextual, based on critical assets, initial infection and the network etc.
 
-The exam is difficult in that identifying each technique and stage on the kill chain is not a point and click exercise, nor is it to the extreme difficulty where you need years of experience in the field. 
+The exam is difficult in that identifying each technique used and each stage on the kill chain is not a point and click exercise, nor is it to the extreme difficulty where you need years of experience in the field. 
 
-The exam for me at least seemed balanced between requiring most of the investigation techniques taught in the course and requiring use of the "process of investigation" taught in the course. By process of investigation I mean following the indicators that you have found instead of copy pasting pre-made queries (like my cheat sheet).
+The exam for me at least seemed balanced between requiring most of the investigation techniques taught in the course and requiring use of the "process of investigation" taught in the course. By process of investigation I mean following the indicators that you have found instead of copy pasting pre-made queries (like my cheat sheet). In saying that, it did push me and my skills up a notch.
+
+Again this requires friendly intelligence such as understanding which host is owned by which user etc (skills that pentesters use as well).
 
 Side note: The sources in the exam platforms are not the same as in the lab. So copy and paste will not work.
 
+**What you get out of the exam**
+A 'real world' (I say that loosely) situation to apply Incident Response skills.
+
+The ability to confirm you have learned and can apply the content. Humans tend to over estimate how well they have learned a topic [reference](https://sites.williams.edu/nk2/files/2011/08/Kornell.Bjork_.2009.pdf) and thus practical application / testing that knowledge is proof it is more than a memory cue from a multiple choice exam.
+
+A certification aligned with a NIST role.
+
+
 ### Prepping for the exam
-For all intent and purpose, the course teaches you what you need to pass the exam.
+For all intent and purposes, the course teaches you what you need to pass the exam.
 
-However in saying that, if all you do is the course the exam might be a fight or not flow as easy.  
+However in saying that, if all you do is the course the exam might be much more difficult than need be.  
   
-It is a good idea to spend extra time in the platformns
-
-
-
-
-
-
-
-
+It is a good idea to spend extra time in the platforms either by building your own home lab or finding something online. Try to become more 'fluent' and comfortable with Splunk and ELK. During the exam you will feel the pressure and you don't want to be googling basic syntax command prior to considering what to look for.
 
 
 ## What I learned from the course
-This is NOT an exhaustive description
+This is NOT an exhaustive description, but the most valuable knowledge I gained.
 
 ### Flowing through Splunk & Elk
-By flowing, I mean the opposite of staring at a search bar in Splunk or ELK and going 'where do I even start'
+By flowing, I mean the opposite of staring at a search bar in Splunk or ELK and going 'where do I even start'. The ability to change queries to get different information as needed.
 
 Unfortunately there is a load of theory to cover to be able to do this. I found I am able to look through different logs and sources within the 2 platforms much more efficiently. I still have to google things now and again for exact syntax or something, but in general I 'understand' possible locations for where information related to an incident could be.
 
@@ -106,14 +108,14 @@ I have many notes now on ELK and Splunk queries to help me jump start an investi
 As an example I have notes on LM/NTML
 ![notes](/images/ihrp/elearn2.png)
 
-A Splunk search for pvileges that can be abused:  
-![](/images/ihrp/elearn3.png)
+A Splunk search for privileges that can be abused:  
+![more notes](/images/ihrp/elearn3.png)
 
 
 #### Job Applicability
 I imagine it would be beneficial if I went for a job related to a SOC or IR, being able to say I have a cheatsheet, or like a playbook guide to my investigations. This shows even though I may not do IR every day, I think about what I am doing, what works and what does not, instead of starting from scratch each time.
 
-The benefit for me, is that it keeps my options open. I am still fine tuning my career and want to be able to change career paths.
+The benefit for me, is that it keeps my options open. I am still fine tuning my career and want to be able to change career paths if needed.
 
 
 ### Hands on with a variety of tools
