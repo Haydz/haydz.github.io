@@ -13,6 +13,11 @@ A review based on my specific circumstances and the value I myself gained from t
 
 eLearnSecurity is a serious alternative to other training providers that can cost up to 3 times more.
 
+Full Transparency:
+* I had this reviewed by eLearnSecurity so that I didn't run into any copyright issues
+* I also did not mean to write so much but I got into a 'flow'
+* I plan on taking the web application testing course to supplement my web app testing role
+
 # What course?
 The course I signed up for was [Incident Handling & Response Professional](https://www.elearnsecurity.com/course/incident_handling_response_professional/)
 
@@ -23,6 +28,7 @@ It was released last year in January.
 This company is based in Italy and the US as you can see in the about us section.
 
 ![](/images/ihrp/elearn8.png)
+![](/images/ihrp/elearn9.png)
 
 ## Why Did I choose this course?
 The security training space is very wide, both in cost and quality.
@@ -128,7 +134,6 @@ Incident Response Platforms
  * Velociraptor
  * GRR (Google Rapid Response)
 
-
 IDS/IPS:
 * Zeek/Bro
 * Snort
@@ -165,9 +170,19 @@ For someone junior, being exposed to the tools and having a go at writing your o
 For someone like myself, the value is also in being able to run the tool and tune rules, but also understanding how it gets deployed, the effort to maintain it, where the sensors should be. How to justify the value of the tool (via understanding what it does and what it does not do) to upper management.
 
 ### Attacker Methodology - From the Blue side
+My initial experience and interest within infosec was penetration testing. I would research online how to fix or defend against the techniques used. But I never had seen it from a true Enterprise defender side. Sure I had installed Splunk and a home lab, but it isn't the same.
 
+Attacks look very different from a blue team side, again with a lot of friendly traffic it is almost impossible to detect. Add in false-positives and it is extremely difficult.
+
+The value here for me is the high level actions that can be taken and how those filter down into a log or combination of logs.
+
+For example, in an active directory environment, the Domain Controllers hold some logs and the clients hold other logs, requiring both to put the full piece together. Or in case of the exam, comparing logs with network traffic analysis.
 
 #### Job Applicability
+Understanding that there is no big red alert saying "attacker".
+
+Being able to identify potential other sources to look to get a full picture of an incident.
+
 
 
 
@@ -189,12 +204,12 @@ Develops proficiency towards NIST role:
 * Law Enforcement/Counterintelligence Forensics Analyst
 * Cyber Defense Forensics Analyst
 
-Upon looking at the PDF, the description of Cyber Incident Responsder and Cyber Defense Incident Response appear to match with the content of the course.
+Upon looking at the PDF, the description of Cyber Incident Responder and Cyber Defense Incident Response appear to match with the content of the course.
 
-![](../images/ihrp/elearn6.png)
-![](../images/ihrp/elearn7.png)
+![](/images/ihrp/elearn6.png)
+![](/images/ihrp/elearn7.png)
 
-# Quality / Size of the Theory
+## Quality / Size of the Theory
 There is a lot. It is extremely important to learn and can be overwhelming. Try to drink from the fire hose and you will burn out. I see this as a necessary evil due to the complexities of what attackers can do on a machine, on both Linux and Windows.
 
 Reading standard text is never fun, but critical. For example, if you don't know which windows event log and type shows a remote login, how will you know to search for it in Splunk? The answer is [4624](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4624) with a logon type 3 for Network.
@@ -205,3 +220,4 @@ Which is part of the cheat sheets I created:
 
 For transparency: Yes there are some grammatical errors. The author is from Italy originally so it is understandable. His expertise is within IR not English.
 
+## Summary - to finish up
