@@ -194,7 +194,7 @@ Having both perspectives from an attacker and defender.
 ### US Job Applicability
 Not so much of important for myself. However:
 
-The courses such as this one a design around the NIST [NICE Cybersecurity Workforce framework](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-cybersecurity-workforce-framework-resource-center)
+The courses such as this one are design around the NIST [NICE Cybersecurity Workforce framework](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-cybersecurity-workforce-framework-resource-center)
 
 [PDF HERE](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-181.pdf)
 
