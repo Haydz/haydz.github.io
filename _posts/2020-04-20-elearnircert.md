@@ -225,7 +225,9 @@ Which is part of the cheat sheets I created:
 
 For transparency: Yes there are some grammatical errors. The author is from Italy originally so it is understandable. His expertise is within IR not English.
 
-## Summary - To Finish Up
+
+# Summary - To Finish Up
 
 * Overall a great course for its price range
 * The practical exam really makes this shine forcing you to be able to apply the skills learned
+* Differentiator from multiple choice exams
