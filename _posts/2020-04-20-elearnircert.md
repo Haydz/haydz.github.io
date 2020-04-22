@@ -108,6 +108,7 @@ It is a good idea to spend extra time in the platforms either by building your o
 Another thing I found that helped, was reading on the same topics outside of the course. This helped understand other ways tools could be used, other thought processes for investigation.
 
 
+
 # What I learned From The Course
 This is NOT an exhaustive description, but the most valuable knowledge I gained.
 
