@@ -66,6 +66,7 @@ The course at a glance section:
 
 
 
+
 # The Exam Format  
 First off, the interest will probably be with the "What is the certification exam like" or "what do I get out of the exam".
 
@@ -153,7 +154,7 @@ SIEM Platforms:
 
 For transparency:
 * The lab learning curve can be quite steep. They do provide a document with the questions and solutions so you can follow along. It felt like a 'big' jump in learning was expected at times.
-* My approach was to attempt to answer the lab questions as much as possible prior to looking at the solution. It was at times frustrating to see a huge 'gap' in what i was doing and where I was expected to get to. 
+* My approach was to attempt to answer the lab questions as much as possible prior to looking at the solution. It was at times frustrating to see a huge 'gap' in what i was doing and where I was expected to get to. The gap being the knowledge I had not obtained. 
 
 #### IR Platforms
 These were good just to be able to understand the benefits of having a centralized platform for IR, including being able to pull information such as a list of files in a suspect directory.
