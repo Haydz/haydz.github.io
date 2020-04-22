@@ -45,16 +45,25 @@ After going through the course and exam I personally feel it met my 3 criteria s
 
 ## What Does The Course Cover?
 The course at a glance section:
-_Start from the very basics, all the way to advanced incident response activities
-Professionally analyze, handle, and respond to security incidents on heterogeneous networks and assets
-Understand the mechanics of modern cyber-attacks and how to detect them
-Effectively use and fine-tune open source IDS (Bro, Snort, Suricata)
-Make the best of open source SIEM solutions (ELK stack, Splunk, etc.)
-Effectively utilize regexes and log management solutions to detect intrusions
-Detect and even (proactively) hunt for intrusions by analyzing traffic, flows and endpoints, as well as utilizing analytics and tactical threat intelligence
+> Start from the very basics, all the way to advanced incident response activities
+
+> Professionally analyze, handle, and respond to security incidents on heterogeneous networks and assets
+
+> Understand the mechanics of modern cyber-attacks and how to detect them
+
+> Effectively use and fine-tune open source IDS (Bro, Snort, Suricata)
+
+> Make the best of open source SIEM solutions (ELK stack, Splunk, etc.)
+
+> Effectively utilize regexes and log management solutions to detect intrusions
+
+> Detect and even (proactively) hunt for intrusions by analyzing traffic, flows and endpoints, as well as utilizing analytics and tactical threat intelligence
+
 Gives you access to dedicated forums
+
 Makes you a proficient professional incident responder
-After obtaining the eCIRv1 certification qualifies you for 40 CPE_
+
+After obtaining the eCIRv1 certification qualifies you for 40 CPE
 
 # The Exam Format  
 First off, the interest will probably be with the "What is the certification exam like" or "what do I get out of the exam"
