@@ -55,7 +55,8 @@ The course at a glance section:
 
 > Make the best of open source SIEM solutions (ELK stack, Splunk, etc.)
 
-> Effectively utilize regexes and log management solutions to detect intrusions
+> Effectively utilize regexes and log management solutions to detect intrusions``
+
 > Detect and even (proactively) hunt for intrusions by analyzing traffic, flows and endpoints, as well as utilizing analytics and tactical threat intelligence
 
 Gives you access to dedicated forums
