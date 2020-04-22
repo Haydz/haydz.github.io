@@ -27,7 +27,6 @@ It was released last year in January.
 [eLearnSecurity](https://www.elearnsecurity.com/company/about_us)
 This company is based in Italy and the US as you can see in the about us section.
 
-![](/images/ihrp/elearn8.png)
 ![](/images/ihrp/elearn9.png)
 
 ## Why Did I choose this course?
@@ -46,7 +45,7 @@ So my criteria was:
 After going through the course and exam I personally feel it met my 3 criteria superbly. This was mostly due to the fact that my day job for incident response is focused heavily in Splunk.
 
 
-# What does the course cover?
+## What does the course cover?
 The standard syllabus is here:
 > Start from the very basics, all the way to advanced incident response activities
 Professionally analyze, handle, and respond to security incidents on heterogeneous networks and assets
@@ -99,10 +98,10 @@ However in saying that, if all you do is the course the exam might be much more 
 It is a good idea to spend extra time in the platforms either by building your own home lab or finding something online. Try to become more 'fluent' and comfortable with Splunk and ELK. During the exam you will feel the pressure and you don't want to be googling basic syntax command prior to considering what to look for.
 
 
-## What I learned from the course
+# What I learned from the course
 This is NOT an exhaustive description, but the most valuable knowledge I gained.
 
-### Flowing through Splunk & Elk
+## Flowing through Splunk & Elk
 By flowing, I mean the opposite of staring at a search bar in Splunk or ELK and going 'where do I even start'. The ability to change queries to get different information as needed.
 
 Unfortunately there is a load of theory to cover to be able to do this. I found I am able to look through different logs and sources within the 2 platforms much more efficiently. I still have to google things now and again for exact syntax or something, but in general I 'understand' possible locations for where information related to an incident could be.
@@ -118,13 +117,13 @@ A Splunk search for privileges that can be abused:
 ![more notes](/images/ihrp/elearn3.png)
 
 
-#### Job Applicability
+### Job Applicability
 I imagine it would be beneficial if I went for a job related to a SOC or IR, being able to say I have a cheatsheet, or like a playbook guide to my investigations. This shows even though I may not do IR every day, I think about what I am doing, what works and what does not, instead of starting from scratch each time.
 
 The benefit for me, is that it keeps my options open. I am still fine tuning my career and want to be able to change career paths if needed.
 
 
-### Hands on with a variety of tools
+## LABS - Hands on with a variety of tools
 Full transparency, the exam does not cover the tools. The exam covers Splunk, ELK and PCAP analysis.
 
 The labs do a fine job of getting you acquainted with the tools and providing varying levels of depth. Sometimes going beyond the tool.
@@ -159,17 +158,15 @@ Obviously at a company, we use an IDS/IPS and it was beneficial to be able to ma
 Because it is not my day to day role, I wrote a blog post based on some of the learning on zeek  [here](https://thehackerwhorolls.home.blog/2019/11/05/zeek-bro-cheat-sheet/). it is very short but will help me quickly be able to read a PCAP and or write a rule if needed. - It is also on my old blog site (horrible and ugly to edit and look at)
 
 
-<> ADD SURICATA BLOG LINK HERE
+I have a Suricata Cheat Sheet post as well. It includes basic references for writing rules. Find it [here](https://thehackerwhorolls.home.blog/2019/11/03/suricata-cheat-sheet-2/)
 
 
-
-
-#### Job Applicability
+### Job Applicability
 For someone junior, being exposed to the tools and having a go at writing your own rules would be invaluable.
 
 For someone like myself, the value is also in being able to run the tool and tune rules, but also understanding how it gets deployed, the effort to maintain it, where the sensors should be. How to justify the value of the tool (via understanding what it does and what it does not do) to upper management.
 
-### Attacker Methodology - From the Blue side
+## Attacker Methodology - From the Blue side
 My initial experience and interest within infosec was penetration testing. I would research online how to fix or defend against the techniques used. But I never had seen it from a true Enterprise defender side. Sure I had installed Splunk and a home lab, but it isn't the same.
 
 Attacks look very different from a blue team side, again with a lot of friendly traffic it is almost impossible to detect. Add in false-positives and it is extremely difficult.
@@ -178,15 +175,17 @@ The value here for me is the high level actions that can be taken and how those 
 
 For example, in an active directory environment, the Domain Controllers hold some logs and the clients hold other logs, requiring both to put the full piece together. Or in case of the exam, comparing logs with network traffic analysis.
 
-#### Job Applicability
+### Job Applicability
 Understanding that there is no big red alert saying "attacker".
 
-Being able to identify potential other sources to look to get a full picture of an incident.
+Being able to identify potential other sources to look to get a full picture of an incident. 
 
-
+Having both perspectives from an attacker and defender.
 
 
 ### US Job Applicability
+Not so much of important for myself. However:
+
 The courses such as this one a design around the NIST [NICE Cybersecurity Workforce framework](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-cybersecurity-workforce-framework-resource-center)
 
 [PDF HERE](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-181.pdf)
@@ -207,17 +206,20 @@ Develops proficiency towards NIST role:
 Upon looking at the PDF, the description of Cyber Incident Responder and Cyber Defense Incident Response appear to match with the content of the course.
 
 ![](/images/ihrp/elearn6.png)
+
 ![](/images/ihrp/elearn7.png)
 
-## Quality / Size of the Theory
+# Quality / Size of the Theory
 There is a lot. It is extremely important to learn and can be overwhelming. Try to drink from the fire hose and you will burn out. I see this as a necessary evil due to the complexities of what attackers can do on a machine, on both Linux and Windows.
 
-Reading standard text is never fun, but critical. For example, if you don't know which windows event log and type shows a remote login, how will you know to search for it in Splunk? The answer is [4624](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4624) with a logon type 3 for Network.
+Reading standard text is never fun, but critical. For example, if you don't know which windows event log and login type shows a remote login, how will you know to search for it in Splunk? The answer is [4624](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4624) with a logon type 3 for Network.
 
 Which is part of the cheat sheets I created:
 ![](/images/ihrp/elearn5.png)
 
-
 For transparency: Yes there are some grammatical errors. The author is from Italy originally so it is understandable. His expertise is within IR not English.
 
 ## Summary - to finish up
+
+* Overall a great course for its price range
+* The practical exam really makes this shine forcing you to be able to apply the skills learned
