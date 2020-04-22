@@ -16,12 +16,10 @@ eLearnSecurity is a serious alternative to other training providers that can cos
 Full Transparency:
 * I had this reviewed by eLearnSecurity so that I didn't run into any copyright issues
 * I also did not mean to write so much but I got into a 'flow'
-* I plan on taking the web application testing course to supplement my web app testing in my day to day job
+* I plan on taking the web application pentesting course to supplement my web app role in my day to day job
 
 # What Course?
-The course I signed up for was [Incident Handling & Response Professional](https://www.elearnsecurity.com/course/incident_handling_response_professional/)
-
-It was released last year in January.
+The course I signed up for was [Incident Handling & Response Professional](https://www.elearnsecurity.com/course/incident_handling_response_professional/). It was released last year in January.
 
 ## Who Is It By?
 [eLearnSecurity](https://www.elearnsecurity.com/company/about_us)
@@ -31,9 +29,9 @@ This company is based in Italy and the US as you can see in the about us section
 
 ## Why Did I Choose This Course?
 The security training space is very wide, both in cost and quality.
-You don't always get what you pay for. I am quite skeptical of training providers, associated costs and 'certifications' in general. I'm certainly not an expert, I use certifications as a guideline for my learning path, not the end all be all.
+You don't always get what you pay for. I am quite skeptical of training providers, associated costs and 'certifications' in general. I'm certainly not an expert. I use certifications as a guideline for my learning path, not the end all be all.
 
-I work as security a manager with analyst/pentest responsibilities. So the training I needed had to be applicable to my day job.
+I work as a security manager with analyst/pentest responsibilities. So the training I needed had to be applicable to my day job.
 
 I don't work at a company where security itself is a revenue generator, for example it does not do penetration testing as a consultancy. It is also not very large. These 2 things mean I have a certain sized training budget that will not cover premium well known training providers.
 
@@ -42,12 +40,12 @@ So my criteria was:
 * Not sink me into debt
 * Tie into my job (hands-on exam)
 
-After going through the course and exam I personally feel it met my 3 criteria superbly. This was mostly due to the fact that my day job for incident response is focused heavily in Splunk.
+After going through the course and exam I personally feel it met my 3 criteria superbly. This was mostly due to the fact that my day job for incident response is focused heavily in Splunk and the IHRP course covers this indepth.
 
 
 ## What Does The Course Cover?
-The standard syllabus is here:
-> Start from the very basics, all the way to advanced incident response activities
+The course at a glance section:
+_Start from the very basics, all the way to advanced incident response activities
 Professionally analyze, handle, and respond to security incidents on heterogeneous networks and assets
 Understand the mechanics of modern cyber-attacks and how to detect them
 Effectively use and fine-tune open source IDS (Bro, Snort, Suricata)
@@ -56,7 +54,7 @@ Effectively utilize regexes and log management solutions to detect intrusions
 Detect and even (proactively) hunt for intrusions by analyzing traffic, flows and endpoints, as well as utilizing analytics and tactical threat intelligence
 Gives you access to dedicated forums
 Makes you a proficient professional incident responder
-After obtaining the eCIRv1 certification qualifies you for 40 CPE
+After obtaining the eCIRv1 certification qualifies you for 40 CPE_
 
 # The Exam Format  
 First off, the interest will probably be with the "What is the certification exam like" or "what do I get out of the exam"
