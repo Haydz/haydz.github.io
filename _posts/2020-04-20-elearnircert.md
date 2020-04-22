@@ -94,7 +94,7 @@ Side note: The sources in the exam platforms are not the same as in the lab. So 
 **What you get out of the exam**
 
 * A 'real world' (I say that loosely) scenario to apply Incident Response skills.
-* The ability to confirm you have learned and can apply the content. Humans tend to over estimate how well they have learned a topic. [reference](https://sites.williams.edu/nk2/files/2011/08/Kornell.Bjork_.2009.pdf) and thus practical application / testing that knowledge is proof it is more than a memory cue from a multiple choice exam.
+* The ability to confirm you have learned and can apply the content. Humans tend to over estimate how well they have learned a topic. ([reference](https://sites.williams.edu/nk2/files/2011/08/Kornell.Bjork_.2009.pdf)) and thus practical application / testing that knowledge is proof it is more than a memory cue from a multiple choice exam.
 * A certification exam aligned with a NIST role.
 
 
