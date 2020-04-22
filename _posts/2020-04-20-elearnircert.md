@@ -109,7 +109,7 @@ Another thing I found that helped, was reading on the same topics outside of the
 
 
 
-# What I learned From The Course
+# What I Learned From The Course
 This is NOT an exhaustive description, but the most valuable knowledge I gained.
 
 ## Flowing Through Splunk & Elk
