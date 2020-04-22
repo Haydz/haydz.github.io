@@ -133,7 +133,7 @@ I imagine it would be beneficial if I went for a job related to a SOC or  for an
 
 The benefit for me, is that it keeps my options open. I am still fine tuning my career and want to be able to change career paths if needed.
 
-## LABS - Hands on with a variety of tools
+## LABS - Hands On With A Variety Of Tools
 Full transparency, the exam does not cover the IDS/IPS tools. The exam covers Splunk, ELK and PCAP analysis.
 
 The labs do a fine job of getting you acquainted with the tools and providing varying levels of depth. Sometimes going beyond the tool.
