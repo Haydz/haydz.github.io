@@ -7,7 +7,7 @@ Since I blogged about my experience at OpenSoc I wanted to expand on the value I
 
 This post not only is intended to help others identify other training options but also to serve as a refresh of content I learned.
 
-# What to expect:
+# What to Expect:
 A review based on my specific circumstances and the value I myself gained from the certification.
 
 
@@ -16,20 +16,20 @@ eLearnSecurity is a serious alternative to other training providers that can cos
 Full Transparency:
 * I had this reviewed by eLearnSecurity so that I didn't run into any copyright issues
 * I also did not mean to write so much but I got into a 'flow'
-* I plan on taking the web application testing course to supplement my web app testing role
+* I plan on taking the web application testing course to supplement my web app testing in my day to day job
 
-# What course?
+# What Course?
 The course I signed up for was [Incident Handling & Response Professional](https://www.elearnsecurity.com/course/incident_handling_response_professional/)
 
 It was released last year in January.
 
-## Who is it by?
+## Who Is It By?
 [eLearnSecurity](https://www.elearnsecurity.com/company/about_us)
 This company is based in Italy and the US as you can see in the about us section.
 
 ![](/images/ihrp/elearn9.png)
 
-## Why Did I choose this course?
+## Why Did I Choose This Course?
 The security training space is very wide, both in cost and quality.
 You don't always get what you pay for. I am quite skeptical of training providers, associated costs and 'certifications' in general. I'm certainly not an expert, I use certifications as a guideline for my learning path, not the end all be all.
 
@@ -45,7 +45,7 @@ So my criteria was:
 After going through the course and exam I personally feel it met my 3 criteria superbly. This was mostly due to the fact that my day job for incident response is focused heavily in Splunk.
 
 
-## What does the course cover?
+## What Does The Course Cover?
 The standard syllabus is here:
 > Start from the very basics, all the way to advanced incident response activities
 Professionally analyze, handle, and respond to security incidents on heterogeneous networks and assets
@@ -142,7 +142,12 @@ SIEM Platforms:
 * Splunk
 * ELK
 
-#### IR platforms
+
+For transparency:
+* The lab learning curve can be quite steep. They do provide a document with the questions and solutions so you can follow along. It just felt like a 'big' jump in learning was expected
+* My approach was to attempt to answer the lab questions as much as possible prior to looking at the solution. It was at times frustrating to see a huge 'gap' in what i was doing and where I was expected to get to. 
+
+#### IR Platforms
 These were good just to be able to understand the benefits of having a centralized platform for IR, including being able to pull information such as a list of files in a suspect directory.
 
 I did not have to set these up myself, the labs had it all installed.
@@ -160,13 +165,16 @@ Because it is not my day to day role, I wrote a blog post based on some of the l
 
 I have a Suricata Cheat Sheet post as well. It includes basic references for writing rules. Find it [here](https://thehackerwhorolls.home.blog/2019/11/03/suricata-cheat-sheet-2/)
 
+Example:
+![](/images/ihrp/elearn10.png)
+
 
 ### Job Applicability
 For someone junior, being exposed to the tools and having a go at writing your own rules would be invaluable.
 
 For someone like myself, the value is also in being able to run the tool and tune rules, but also understanding how it gets deployed, the effort to maintain it, where the sensors should be. How to justify the value of the tool (via understanding what it does and what it does not do) to upper management.
 
-## Attacker Methodology - From the Blue side
+## Attacker Methodology - From The Blue side
 My initial experience and interest within infosec was penetration testing. I would research online how to fix or defend against the techniques used. But I never had seen it from a true Enterprise defender side. Sure I had installed Splunk and a home lab, but it isn't the same.
 
 Attacks look very different from a blue team side, again with a lot of friendly traffic it is almost impossible to detect. Add in false-positives and it is extremely difficult.
@@ -219,7 +227,7 @@ Which is part of the cheat sheets I created:
 
 For transparency: Yes there are some grammatical errors. The author is from Italy originally so it is understandable. His expertise is within IR not English.
 
-## Summary - to finish up
+## Summary - To Finish Up
 
 * Overall a great course for its price range
 * The practical exam really makes this shine forcing you to be able to apply the skills learned
