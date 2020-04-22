@@ -204,9 +204,7 @@ From their website
 and 
 > Current and future cybersecurity workers, to help explore Tasks and Work Roles and assist with understanding the KSAs that are being valued by employers for in-demand cybersecurity jobs and positions.
 
-IHRP/eCIR is developed towards:  
-Develops proficiency towards NIST role:
-
+IHRP/eCIR is developed towards the following NIST roles:
 * Cyber Defense Incident Responder
 * Law Enforcement/Counterintelligence Forensics Analyst
 * Cyber Defense Forensics Analyst
