@@ -22,6 +22,7 @@ The course I signed up for was [Incident Handling & Response Professional](https
 
 ## Who Is It By?
 [eLearnSecurity](https://www.elearnsecurity.com/company/about_us)
+As you can see in the About Us section , eLearnSecurity is a training and certification company based in the US with offices still in Italy where the company was founded.
 
 ![](/images/ihrp/elearn9.png)
 
