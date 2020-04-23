@@ -32,14 +32,14 @@ You don't always get what you pay for. I'm quite skeptical of training providers
 
 I work as a security manager looking after the overall program, in addition to analyst/pentest responsibilities. So the training I needed had to be applicable to my day job.
 
-I don't work at a company where security itself is a revenue generator nor at a company that is large. These 2 things mean I have a certain sized training budget that will not cover premium well known training providers.
+I don't work at a company where security itself is a revenue generator, nor do I work at a company that is large. These 2 things mean I have a certain sized training budget that will not cover premium well known training providers.
 
 So my criteria was the below:  
 * Good quality training
 * Not sink me into debt
 * Tie into my job (hands-on exam)
 
-I chose this training provider for these reasons and after going through the course, I personally feel it met my 3 criteria superbly. This was mostly due to the fact that my day job for incident response is focused heavily in Splunk and the IHRP course covers this in-depth.
+I chose this training provider for the above  reasons and after going through the course, I personally feel it met my 3 criteria superbly. This was mostly due to the fact that my day job for incident response is focused heavily in Splunk and the IHRP course covers this in-depth.
 
 
 # What Does The Course Cover?
@@ -108,8 +108,33 @@ It is a good idea to spend extra time in the platforms either by building your o
 Another thing I found that helped, was reading on the same topics outside of the course. This helped understand other ways tools could be used, other thought processes for investigation.
 
 
+# LABS - Hands On With A Variety Of Tools
+The tools covered include:  
+Incident Response Platforms
+ * Velociraptor
+ * GRR (Google Rapid Response)
 
-# What I Learned From The Course
+IDS/IPS:
+* Zeek/Bro
+* Snort
+* Suricata
+
+SIEM Platforms:  
+* Splunk
+* ELK
+
+The labs do a fine job of getting you acquainted with the tools and providing varying levels of depth. Sometimes going beyond the tool.
+
+For transparency:
+* The lab learning curve can be quite steep. They do provide a document with the questions and solutions so you can follow along. It felt like a 'big' jump in learning was expected at times.
+* My approach was to attempt to answer the lab questions as much as possible prior to looking at the solution. It was at times frustrating to see a huge 'gap' in what i was doing and where I was expected to get to. The gap being the knowledge I had not obtained. 
+
+### IR Platforms
+These were good just to be able to understand the benefits of having a centralized platform for IR, including being able to pull information such as a list of files in a suspect directory.
+
+I did not have to set these up myself, the labs had it all installed.
+
+# What I Learned From The Course & Certification
 This is NOT an exhaustive description, but the most valuable knowledge I gained.
 
 ## Flowing Through Splunk & ELK
@@ -133,37 +158,8 @@ I imagine it would be beneficial if I went for a job related to a SOC or  for an
 
 The benefit for me, is that it keeps my options open. I am still fine tuning my career and want to be able to change career paths if needed.
 
-## LABS - Hands On With A Variety Of Tools
-Full transparency, the exam does not cover the IDS/IPS tools. The exam covers Splunk, ELK and PCAP analysis.
 
-The labs do a fine job of getting you acquainted with the tools and providing varying levels of depth. Sometimes going beyond the tool.
-
-The tools covered include:  
-Incident Response Platforms
- * Velociraptor
- * GRR (Google Rapid Response)
-
-IDS/IPS:
-* Zeek/Bro
-* Snort
-* Suricata
-
-SIEM Platforms:  
-* Splunk
-* ELK
-
-
-For transparency:
-* The lab learning curve can be quite steep. They do provide a document with the questions and solutions so you can follow along. It felt like a 'big' jump in learning was expected at times.
-* My approach was to attempt to answer the lab questions as much as possible prior to looking at the solution. It was at times frustrating to see a huge 'gap' in what i was doing and where I was expected to get to. The gap being the knowledge I had not obtained. 
-
-#### IR Platforms
-These were good just to be able to understand the benefits of having a centralized platform for IR, including being able to pull information such as a list of files in a suspect directory.
-
-I did not have to set these up myself, the labs had it all installed.
-
-
-#### IDS/IPS
+## IDS/IPS
 Not having to rely on one tool will be beneficial. Especially if consulting at different clients.
 
 The value I found in here, was being able to evaluate the pros and cons of the tools. Such as skill required, effort to maintain or tune and or cost of deployment (purchase price, time & effort).
