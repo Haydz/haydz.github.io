@@ -159,7 +159,7 @@ I imagine it would be beneficial if I went for a job related to a SOC or  for an
 The benefit for me, is that it keeps my options open. I am still fine tuning my career and want to be able to change career paths if needed.
 
 
-## IDS/IPS
+## IDS/IPS Experience
 Not having to rely on one tool will be beneficial. Especially if consulting at different clients.
 
 The value I found in here, was being able to evaluate the pros and cons of the tools. Such as skill required, effort to maintain or tune and or cost of deployment (purchase price, time & effort).
@@ -169,7 +169,7 @@ Obviously at a company, we use an IDS/IPS and it was beneficial to be able to ma
 Because it is not my day to day role, I wrote a blog post based on some of the learning on zeek  [here](https://thehackerwhorolls.home.blog/2019/11/05/zeek-bro-cheat-sheet/). it is very short but will help me quickly be able to read a PCAP and or write a rule if needed. - It is also on my old blog site (horrible and ugly to edit and look at).
 
 
-I have a Suricata Cheat Sheet post as well. It includes basic references for writing rules. Find it[here](https://thehackerwhorolls.home.blog/2019/11/03/suricata-cheat-sheet-2/)
+I have a Suricata Cheat Sheet post as well. It includes basic references for writing rules. Find it [here](https://thehackerwhorolls.home.blog/2019/11/03/suricata-cheat-sheet-2/)
 
 Example:
 ![](/images/ihrp/elearn10.png)
@@ -183,9 +183,9 @@ For someone like myself, the value is not only in being able to run the tool and
 ## Attacker Methodology - From The Blue Side
 My initial experience and interest within infosec was penetration testing. I would research online how to fix or defend against the techniques used. But I hadn't experienced it from a true Enterprise defender side before. Sure I had installed Splunk and a home lab, but it isn't the same.
 
-Attacks look very different from a blue team side, again with a lot of friendly traffic it is almost impossible to detect. Add in false-positives and it is extremely difficult.
+Attacks look very different from the defender side, with a lot of friendly traffic attacks are difficult to detect. Add in false-positives and the difficulty raises even further.
 
-The value here for me is the high level actions that can be taken and how those filter down into a log or combination of logs.
+The value for me, is the high level actions that can be taken and how those filter down into a log or combination of logs.
 
 For example, in an active directory environment, the Domain Controllers hold some logs and the clients hold other logs, requiring both to put the full piece together. Or in case of the exam, comparing logs with network traffic analysis.
 
@@ -219,7 +219,7 @@ Upon looking at the PDF, the description of Cyber Incident Responder and Cyber D
 ![](/images/ihrp/elearn7.png)
 
 # Quality / Size of the Theory
-There is a lot. It is extremely important to learn and can be overwhelming. Try to drink from the fire hose and you will burn out. I see this as a necessary evil due to the complexities of what attackers can do on a machine, on both Linux and Windows.
+There is a lot of theory. Theory is extremely important to learn and can be overwhelming. Try to drink from the fire hose and you will burn out. I see this as a necessary evil due to the complexities of what attackers can do on a machine, on both Linux and Windows.
 
 Reading standard text is never fun, but critical. For example, if you don't know which windows event log and login type shows a remote login, how will you know to search for it in Splunk? The answer is [4624](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4624) with a logon type 3 for Network.
 
@@ -231,6 +231,6 @@ For transparency: Yes there are some grammatical errors. The author is from Gree
 
 # Summary - To Finish Up
 * Overall a great course for the price range
-* The practical exam really makes this shine, forcing application of skills
+* The practical exam  makes this shine, forcing application of skills
 * A differentiator from multiple choice exams
 * Prepares you to do the job not just teach a bunch of theory and tools
