@@ -17,6 +17,7 @@ Full Transparency:
 * I also did not mean to write so much, but I got into a 'flow'.
 * I plan on taking the web application penetration testing course to supplement my web app role within my day to day job.
 
+
 # What Course?
 The course I signed up for was [Incident Handling & Response Professional](https://www.elearnsecurity.com/course/incident_handling_response_professional/). It was released last year in January.
 
@@ -97,7 +98,6 @@ Side note: The sources in the exam platforms are not the same as in the lab. So 
 * The ability to confirm you have learned and can apply the content. Humans tend to over estimate how well they have learned a topic. ([reference](https://sites.williams.edu/nk2/files/2011/08/Kornell.Bjork_.2009.pdf)) and thus practical application / testing that knowledge is proof it is more than a memory cue from a multiple choice exam.
 * A certification exam aligned with a NIST role.
 
-
 ### Preparing For The Exam
 For all intents and purposes, the course teaches you what you need know to pass the exam.
 
@@ -106,6 +106,7 @@ However in saying that, if all you do is the course the exam might be much more 
 It is a good idea to spend extra time in the platforms either by building your own home lab or finding something online. Try to become more 'fluent' and comfortable with Splunk and ELK. During the exam you will feel the pressure and you don't want to be googling basic syntax command prior to considering what to look for.
 
 Another thing I found that helped, was reading on the same topics outside of the course. This helped understand other ways tools could be used, other thought processes for investigation.
+
 
 
 # LABS - Hands On With A Variety Of Tools
@@ -133,6 +134,8 @@ For transparency:
 These were good just to be able to understand the benefits of having a centralized platform for IR, including being able to pull information such as a list of files in a suspect directory.
 
 I did not have to set these up myself, the labs had it all installed.
+
+
 
 # What I Learned From The Course & Certification
 This is NOT an exhaustive description, but the most valuable knowledge I gained.
@@ -218,6 +221,8 @@ Upon looking at the PDF, the description of Cyber Incident Responder and Cyber D
 
 ![](/images/ihrp/elearn7.png)
 
+
+
 # Quality / Size of the Theory
 There is a lot of theory. Theory is extremely important to learn and can be overwhelming. Try to drink from the fire hose and you will burn out. I see this as a necessary evil due to the complexities of what attackers can do on a machine, on both Linux and Windows.
 
@@ -227,6 +232,7 @@ Which is part of the cheat sheets I created:
 ![](/images/ihrp/elearn5.png)
 
 For transparency: Yes there are some grammatical errors. The author is from Greece originally so it is understandable. His expertise is within IR not English.
+
 
 
 # Summary - To Finish Up
