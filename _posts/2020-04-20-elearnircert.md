@@ -3,26 +3,25 @@ layout: posts
 title: "Incident Handling Certification"
 ---
 
-Since I blogged about my experience at OpenSoc I wanted to expand on the value I found in my eLearnSecuirty Incident Response course. What you will find below is a bit of a review of the course itself and the exam.
+Since I blogged about my experience at OpenSoc, I wanted to expand on the value I found in my eLearnSecuirty Incident Response course. What you will find below is a bit of a review of the course itself and the exam.
 
-This post not only is intended to help others identify other training options but also to serve as a refresh of content I learned.
+This post is not only intended to help others identify other training options, but also to serve as a refresher of the content I learned.
 
-# What to Expect:
-A review based on my specific circumstances and the value I myself gained from the certification.
+# What To Expect:
+A review based on my specific circumstances and the value I gained from the certification.
 
 eLearnSecurity is a serious alternative to other training providers that can cost up to 3 times more.
 
 Full Transparency:
-* I had this reviewed by eLearnSecurity so that I didn't run into any copyright issues
-* I also did not mean to write so much but I got into a 'flow'
-* I plan on taking the web application penetration testing course to supplement my web app role in my day to day job
+* I had this reviewed by eLearnSecurity so that I didn't run into any copyright issues.
+* I also did not mean to write so much, but I got into a 'flow'.
+* I plan on taking the web application penetration testing course to supplement my web app role within my day to day job.
 
 # What Course?
 The course I signed up for was [Incident Handling & Response Professional](https://www.elearnsecurity.com/course/incident_handling_response_professional/). It was released last year in January.
 
 ## Who Is It By?
 [eLearnSecurity](https://www.elearnsecurity.com/company/about_us)
-This company is based in Italy and the US as you can see in the about us section.
 
 ![](/images/ihrp/elearn9.png)
 
@@ -34,12 +33,12 @@ I work as a security manager looking after the overall program, in addition to a
 
 I don't work at a company where security itself is a revenue generator nor at a company that is large. These 2 things mean I have a certain sized training budget that will not cover premium well known training providers.
 
-So my criteria was:  
+So my criteria was the below:  
 * Good quality training
 * Not sink me into debt
 * Tie into my job (hands-on exam)
 
-After going through the course and exam I personally feel it met my 3 criteria superbly. This was mostly due to the fact that my day job for incident response is focused heavily in Splunk and the IHRP course covers this indepth.
+I chose this training provider for these reasons and after going through the course, I personally feel it met my 3 criteria superbly. This was mostly due to the fact that my day job for incident response is focused heavily in Splunk and the IHRP course covers this in-depth.
 
 
 # What Does The Course Cover?
@@ -70,24 +69,24 @@ The course at a glance section:
 # The Exam Format  
 First off, the interest will probably be with the "What is the certification exam like" or "what do I get out of the exam".
 
-I have done a practical hands on exam in offensive security and a multiple choice exam for offensive security. I learned, applied and retained much more in a practical exam setting.
+I have completed a practical hands on exam in offensive security and a multiple choice exam for offensive security. I learned, applied and retained much more in a practical exam setting.
 
-The exam is all hands-on. There are zero multiple choice questions. It is scenario based (2) requiring not just technical knowledge of Splunk and ELK but understanding the business and its critical assets. There is a component of network traffic analysis to mix it up and give another way  to gain visibility on the attack.
+The exam is all hands-on. There are zero multiple choice questions. It is a scenario based (2) exam. Requiring not just technical knowledge of Splunk and ELK but understanding the business and critical assets in order to inform your investigative process. There is a component of network traffic analysis to mix it up and give another way  to gain visibility on the attack.
 
-The practical portion is 2 full days. This is the investigation portion.
+The practical portion is 2 full days.
 
-There is also an additional 2 days for report writing. That is, take all the notes from the practical portion and reporting on the what the attacker 'did'. That could be anything from the Cyber Kill Chain, such as initial infection, moving to different systems, persistence and or something related to "acting on objectives". 
+There is also an additional 2 days for report writing. That is, take all the notes from the practical portion and report on the what the attacker 'did'. That could be anything from the Cyber Kill Chain, such as initial infection, moving to different systems, persistence and or something related to "acting on objectives". 
 
 More can be read [Here](https://www.elearnsecurity.com/certification/ecir/)
 
-## Difficulty of exam
+## Exam Difficulty
 Investigation is contextual, based on critical assets, initial infection and the network etc.
 
-The exam is difficult in that identifying each technique used and each stage on the kill chain is not a point and click exercise, nor is it to the extreme difficulty where you need years of experience in the field. 
+The exam is difficult in that identifying each technique used and each stage on the kill chain is not a point and click exercise, nor is it to the extreme difficulty requiring years of experience in the field.
 
-The exam for me at least seemed balanced between requiring most of the investigation techniques taught in the course and requiring use of the "process of investigation" taught in the course. By process of investigation I mean following the indicators that you have found instead of copy pasting pre-made queries (like my cheat sheet). In saying that, it did push me and my skills up a notch.
+The exam for me seemed balanced between requiring most of the investigation techniques taught in the course, and requiring use of the "process of investigation" taught in the course. By process of investigation I mean following the indicators that you have found, instead of copy pasting pre-made queries (like my cheat sheet). In saying that, it did push me and my skills up a notch.
 
-The exam also requires friendly intelligence such as understanding which host is owned by which user etc (skills that pentesters use as well).
+The exam also requires friendly intelligence, such as understanding which host is owned by which user etc. (skills that pentesters use as well).
 
 Side note: The sources in the exam platforms are not the same as in the lab. So copy and paste will not work.
 
@@ -99,7 +98,7 @@ Side note: The sources in the exam platforms are not the same as in the lab. So 
 
 
 ### Preparing For The Exam
-For all intents and purposes, the course teaches you what you need to pass the exam.
+For all intents and purposes, the course teaches you what you need know to pass the exam.
 
 However in saying that, if all you do is the course the exam might be much more difficult than need be.  
   
@@ -112,7 +111,7 @@ Another thing I found that helped, was reading on the same topics outside of the
 # What I Learned From The Course
 This is NOT an exhaustive description, but the most valuable knowledge I gained.
 
-## Flowing Through Splunk & Elk
+## Flowing Through Splunk & ELK
 By flowing, I mean the opposite of staring at a search bar in Splunk or ELK and going 'where do I even start'. The ability to change queries to get different information as needed.
 
 Unfortunately there is a load of theory to cover to be able to do this. I've since found I am able to look through different logs and sources within the 2 platforms much more efficiently. I still have to google things now and again for exact syntax or something, but in general I 'understand' possible locations for where information related to an incident could be.
@@ -163,7 +162,7 @@ These were good just to be able to understand the benefits of having a centraliz
 I did not have to set these up myself, the labs had it all installed.
 
 
-#### IPS/IDS
+#### IDS/IPS
 Not having to rely on one tool will be beneficial. Especially if consulting at different clients.
 
 The value I found in here, was being able to evaluate the pros and cons of the tools. Such as skill required, effort to maintain or tune and or cost of deployment (purchase price, time & effort).
@@ -234,7 +233,7 @@ For transparency: Yes there are some grammatical errors. The author is from Gree
 
 
 # Summary - To Finish Up
-* Overall a great course for its price range
-* The practical exam really makes this shine forcing you to be able to apply the skills learned
+* Overall a great course for the price range
+* The practical exam really makes this shine, forcing application of skills
 * A differentiator from multiple choice exams
 * Prepares you to do the job not just teach a bunch of theory and tools
