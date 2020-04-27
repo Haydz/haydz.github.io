@@ -19,7 +19,7 @@ The workshop had three phases based on hybrid data centre use cases:
 * Defense – to define the protection strategy
 * Proactive – to set the security needed to avoid being compromised again 
 
-## Organized by who?
+## Organized by whom?
 The workshop was created by Trend Micro and organized in conjunction with the [DC416](https://dc416.com/) crew.
 
 ![](/images/threatdefense/image_10.png)
