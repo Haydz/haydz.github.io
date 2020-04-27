@@ -3,7 +3,7 @@ layout: posts
 title: "Threat Defense Workshop"
 ---
 
-On April 26th I was fortunate enough to participate in the Trend Micro Threat Defense workshop. 
+On April 25th I was fortunate enough to participate in the Trend Micro Threat Defense workshop. 
 
 # What is a Threat Defense Workshop?
 
