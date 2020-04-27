@@ -8,7 +8,7 @@ On April 25th I was fortunate enough to participate in the Trend Micro Threat De
 # What is a Threat Defense Workshop?
 
 ## How long was the event?
-It was on a Saturday from 9pm to 3:30pm.
+It was on a Saturday from 9am to 3:30pm.
 6 and a half hours
 
 # What was Involved
@@ -24,6 +24,9 @@ Systems within the game:
 
 ## Tools
 This was a Trend Micro event, meaning it was all designed and created by their team. As such the only tool given was Deep Security <LINK HERE>
+
+Deep Security example:
+![](/images/threatdefense/image_4.png)
 
 However there were other tools that were required:
 * John The Ripper
@@ -43,14 +46,36 @@ To more thinking outside the box:
 * Enabling features within Deep Security tool to give more visibility, or fine tuning
 
 
+Example finding malware:
+![](/images/threatdefense/image_1.png)
+
+Example using hexdump, which was NOT the way to solve the challenge:
+![](/images/threatdefense/image_3.png)
+
+Example viewing Windows events through Deep Security:
+![](/images/threatdefense/image_5.png)
+
+
 # What Did The Scoreboard Look Like?
 This was a unique take on scoreboards.  
   
 Instead of just having a ladder and challenges. The idea was that you were 'hacking around the world'. Each country had its own challenge. Obviously it started off in Canada!
-<add images>
+![](../images/threatdefense/image_8.png)
+![](/images/threatdefense/image_7.png)
+
+
+
+Example Challenges:
+![](/images/threatdefense/image_6.png)
+
+
+
 
 # How Did We Place
 5th! Which I feel is pretty awesome.
+It was great to try a new tool and continue challenging myself.
 
-<add images>
+
+![]((/images/threatdefense/image_2.png)
+
 
