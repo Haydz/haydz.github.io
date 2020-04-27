@@ -60,7 +60,7 @@ Example viewing Windows events through Deep Security:
 This was a unique take on scoreboards.  
   
 Instead of just having a ladder and challenges. The idea was that you were 'hacking around the world'. Each country had its own challenge. Obviously it started off in Canada!
-![](../images/threatdefense/image_8.png)
+![](/images/threatdefense/image_8.png)
 ![](/images/threatdefense/image_7.png)
 
 
@@ -76,6 +76,6 @@ Example Challenges:
 It was great to try a new tool and continue challenging myself.
 
 
-![]((/images/threatdefense/image_2.png)
+![](/images/threatdefense/image_2.png)
 
 
