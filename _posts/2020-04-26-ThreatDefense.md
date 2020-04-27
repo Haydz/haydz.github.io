@@ -5,7 +5,12 @@ title: "Threat Defense Workshop"
 
 On April 25th I was fortunate enough to participate in the Trend Micro Threat Defense workshop. 
 
+You'll find a quick explanation of this event and somescreenshots.
+
 # What is a Threat Defense Workshop?
+
+[Workshop](https://www.eventbrite.com/e/dc416-x-trend-micro-virtual-threat-defense-workshop-hybrid-cloud-edition-tickets-94851686949)
+![](/images/threatdefense/image_9.png)
 
 ## How long was the event?
 It was on a Saturday from 9am to 3:30pm.
