@@ -94,7 +94,7 @@ Example Challenges:
 
 
 # How Did We Place
-5th! Which I feel is pretty awesome. Also not bad for a team of 3 out of 4 :D - Thanks Team mates!
+5th! Which I feel is pretty awesome. Also not bad for a team missing 1 team member. 3 members instead of 4 :D - Thanks Team mates!
 It was great to try a new tool and continue challenging myself.
 
 
