@@ -37,13 +37,13 @@ It was on a Saturday from 9am to 3:30pm.
 The network was accessed via the cloud.  
   
 Systems within the game:
-* A Jump host to rdp into others
+* A Jump host to RDP into others
 * Docker Host
 * IIS Webserver
 * Database Server (MySQL)
 
 ## Tools
-This was a Trend Micro event, meaning it was all designed and created by their team. As such the only tool given was Deep Security <LINK HERE>
+This was a Trend Micro event, meaning it was all designed and created by their team. As such the only tool given was [Deep Security](https://www.trendmicro.com/en_us/business/products/hybrid-cloud/deep-security.html) 
 
 Deep Security example:
 ![](/images/threatdefense/image_4.png)
@@ -53,6 +53,8 @@ However there were other tools that were required:
 * OpenSSL
 * Windows Event logs itself
 * Command line - for both Linux and Windows
+
+We did not finish all the challenges, so there was much more to explore.
 
 ## Challenges
 Varied from basic to hard.
