@@ -12,6 +12,13 @@ You'll find a quick explanation of this event and some screenshots.
 [Workshop](https://www.eventbrite.com/e/dc416-x-trend-micro-virtual-threat-defense-workshop-hybrid-cloud-edition-tickets-94851686949)
 ![](/images/threatdefense/image_9.png)
 
+> At this workshop you will be working in teams with a scenario - a company is currently under attack. You are in charge of its protection. Live the adrenaline by defending the company from different attacks in real time whose objective is to steal the most important part of your business: Information. Be part of this experience and strengthen your security strategy, with the expert help. The aim is to win the Threat Defense Challenge, by gaining the most points through a series of discovery and attack challenges. Are you ready for the challenge?
+
+The workshop had three phases based on hybrid data centre use cases:
+* Forensic - to find out what happened – to discover/obtain information
+* Defense – to define the protection strategy
+* Proactive – to set the security needed to avoid being compromised again 
+
 ## How long was the event?
 It was on a Saturday from 9am to 3:30pm.
 6 and a half hours
