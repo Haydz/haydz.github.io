@@ -23,6 +23,8 @@ The workshop had three phases based on hybrid data centre use cases:
 It was on a Saturday from 9am to 3:30pm.
 6 and a half hours
 
+
+
 # What was Involved
 
 ## Systems
@@ -68,6 +70,7 @@ Example viewing Windows events through Deep Security:
 ![](/images/threatdefense/image_5.png)
 
 
+
 # What Did The Scoreboard Look Like?
 This was a unique take on scoreboards.  
   
@@ -79,7 +82,6 @@ Instead of just having a ladder and challenges. The idea was that you were 'hack
 
 Example Challenges:
 ![](/images/threatdefense/image_6.png)
-
 
 
 
