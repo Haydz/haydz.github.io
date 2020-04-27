@@ -19,6 +19,12 @@ The workshop had three phases based on hybrid data centre use cases:
 * Defense – to define the protection strategy
 * Proactive – to set the security needed to avoid being compromised again 
 
+## Organized by who?
+The workshop was created by Trend Micro and organized in conjunction with the [DC416](https://dc416.com/) crew.
+
+![](/images/threatdefense/image_10.png)
+
+
 ## How long was the event?
 It was on a Saturday from 9am to 3:30pm.
 6 and a half hours
