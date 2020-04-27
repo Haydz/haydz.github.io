@@ -5,7 +5,7 @@ title: "Threat Defense Workshop"
 
 On April 25th I was fortunate enough to participate in the Trend Micro Threat Defense workshop. 
 
-You'll find a quick explanation of this event and somescreenshots.
+You'll find a quick explanation of this event and some screenshots.
 
 # What is a Threat Defense Workshop?
 
