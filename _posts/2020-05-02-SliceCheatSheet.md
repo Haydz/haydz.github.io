@@ -78,7 +78,7 @@ testSlice := []string{"created", "updated", "summary", "status"} "priority", "as
 {% endhighlight %}
 
 
-Choosing a value from the Slice can be done with the interger location:
+Choosing a value from the Slice can be done with the integer location:
 
 {%highlight go linenos %}
 fmt.Println(testSlice[0])
