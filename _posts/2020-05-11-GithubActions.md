@@ -3,8 +3,7 @@ layout: posts
 title: "GitHub Actions"
 ---
 
-I did a devsecops type workshop on Saturday (May 9th) in which we created some GitHub Actions. This is a post to solidify the learning and be a cheat sheet.
-
+I participated in a DevSecOps type workshop on Saturday (May 9th) in which we created some GitHub Actions. This is a post to solidify the learning and be a cheat sheet.
 
 # What Training?
 Again [DC416](https://twitter.com/defcon_toronto) hosted an online workshop. It was run by [Tanya](https://twitter.com/shehackspurple).
@@ -15,7 +14,7 @@ It was titled "DC416 DevSecOps Workshop with GitHub Actions and Azure".
 I learned a bit and had fun. 
 
 ## What did we do?
-Add a pipleline to our process to deploy code from GitHub to a webapp on Azure and use various security tooling within the pipeline
+Add a pipeline to our process to deploy code from GitHub to a web-app on Azure and use various security tooling within the pipeline
 
 ### Credential/Secret Scanning
 - TruffleHog tool by Hashicorp
@@ -48,12 +47,12 @@ Search for them like so:
 ## Flow of a GitHub Action
 So a GitHub action actually ties into a workflow. 
 
-Custom workflows are automatic processes that are setup in a repo. So you would have a workflow that executes a GitHub Action.
+Custom workflows are automatic processes that are setup in a GitHub repo. So you would have a workflow that executes a GitHub Action.
 
 From the [documentation](https://help.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow)
 > Workflows must have at least one job, and jobs contain a set of steps that perform individual tasks. Steps can run commands or use an action. You can create your own actions or use actions shared by the GitHub community and customize them as needed.
 
-# The example to walk through:
+# The example to walk-through:
 1. Create a directory at the root named `.github/workflows`
 2. Create a YAML file in the above directory with instructions on the workflow. - In our example we are going to use Trufflehog
 3. Commit the changes
@@ -61,11 +60,13 @@ From the [documentation](https://help.github.com/en/actions/configuring-and-mana
 Note: in #2 the example will be to execute a search for the work email (Trufflehog) on a commit/push to GitHub.
 
 
-## 1 - Create the Directory
+## 1 - Create the directory
 Simply create the directory within the GitHub Repo:
+`.github/workflows`
 ![](/images/dc416devops/image_4.png)
 
-## 2 - Create the Yaml file:  
+## 2 - Create the YAML file:  
+The .yml file needs to be created within the `workflows` directory.
 ![](/images/dc416devops/image_5.png)
 
 # Layout of Yaml file:
@@ -110,23 +111,24 @@ Looking for TruffleHog I found 2 types. One is based off the original but does n
 
 For this example we will use [Trufflehog Actions Scan](https://github.com/marketplace/actions/trufflehog-actions-scan)
 
-This GitHub action allows a basic configuration
+This GitHub action allows basic configuration
 ![](/images/dc416devops/image_6.png)
 
-As well as custom:
+As well as custom configuration.
 ![](/images/dc416devops/image_7.png)
 
 Within the custom Arguments configuration, we can see the `--rules` line with a `regexes.json` file. - This will be the file we edit to add a custom rule to look for a work email.
 
 
 ### Editing the Yaml File
-Back to your repo where the yaml file was created. We need to add a job to execute the GitHub action.
+Here we can add TruffleHog as it is without customization. To do this, follow the below:
+
+Back to the GitHub repo where the yaml file was created. We need to add a job to execute the GitHub action.
 
 The link for my YAML file location is:
-https://github.com/Haydz/pull_jira/blob/master/.github/workflows/main.yml
+https://github.com/Haydz/jirapull/blob/master/.github/workflows/main.yml
 
-Edit your YAML file to execute truffle hog like so:
-
+Edit your YAML file to like so:
 
 
 ```yaml
@@ -141,24 +143,28 @@ jobs:
        - uses: actions/checkout@master
        - name:  trufflehog-actions-scan
          uses: edplato/trufflehog-actions-scan
+         
 ```
-This takes the following bits from the example workflow file and the Trufflehog documentation:
+The above file takes the following parts from the example workflow file and the Trufflehog documentation:
 * executing on a commit  
 * the job to run
 * running on bunutu
 * the  basic steps from trufflehog
 
-If this is commited, it should start off the Trufflehog GitHub Action.
+If this is commited in GitHub, it should start off the Trufflehog GitHub Action.
 
 You can look in the actions section:
-https://github.com/Haydz/pull_jira/actions
+https://github.com/Haydz/jirapull/actions
 ![](/images/dc416devops/image_12.png)
 
 If you click into it, it will look something like the following, but will most likely pass as your code probably does not have any secrets in it:
 ![](/images/dc416devops/image_13.png)
 
-So this is an example of having Trufflehog running. The steps to customize it are below:
+So this is an example of having Trufflehog running. 
 
+
+
+The steps to customize Trufflehog to look for an email address are below:
 
 # Customizing Trufflehog
 Just like any GitHub repo that requires customization, forking the repo is needed.
@@ -177,8 +183,12 @@ https://github.com/Haydz/trufflehog-actions-scan
 ## Looking into regexes.json
 There was a rules file listed in the instructions. So its best to look at that.
 
+![](/images/dc416devops/image_20.png)
+
 In short, it is a list of regex rules that will the action will alert on:
 ![](/images/dc416devops/image_10.png)
+
+
 
 Edit this with your work email, or a secret you want to find.
 My example is anything with a `name.lastname@fakemail.com` format:
@@ -215,7 +225,7 @@ jobs:
            scanArguments: "--regex --max_depth=10  --rules /regexes.json"
            
 ```
-My Yaml can be found [here](https://github.com/Haydz/pull_jira/blob/master/.github/workflows/main.yml)
+My Yaml can be found [here](https://github.com/Haydz/jirapull/blob/master/.github/workflows/main.yml)
 
 
 
