@@ -8,7 +8,7 @@ Today I was trouble shooting a machine at work. I did not have access via RDP or
 This is to serve as a cheat sheet for what I did, in case I need to do it again.
 
 Side Note:
-* I used to know this very well back in the pentesting days.
+* A handy trick for lateral movement / pentesting.
 
 
 # Dynamically forwarding traffic via SSH
