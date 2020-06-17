@@ -28,13 +28,13 @@ Using Foxy Proxy:
 
 # Statically forwarding traffic via SSH
 ```bash
-ssh -i pts-kali  -L 127.0.0.1:8080:192.168.1.1:80 penuser@192.168.1.2
+ssh   -L 127.0.0.1:8080:192.168.1.1:80 hacker@192.168.1.2
 ```
 This will forward local port 8080 traffic to 192.168.1.1 port 80 VIA (goes through_ 192.168.1.2)
 
 
 
 ```bash
-ssh -i pts-kali  -L 127.0.0.1:8080:192.168.1.1:80 penuser@192.168.1.1
+ssh  -L 127.0.0.1:8080:192.168.1.1:80 hacker@192.168.1.1
 ```
 This will forward local port 8080 to the remote host and send the traffic to the remote hosts (192.168.1.1) port 80
