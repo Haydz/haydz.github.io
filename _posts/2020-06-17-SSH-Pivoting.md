@@ -30,7 +30,7 @@ Using Foxy Proxy:
 ```bash
 ssh   -L 127.0.0.1:8080:192.168.1.1:80 hacker@192.168.1.2
 ```
-This will forward local port 8080 traffic to 192.168.1.1 port 80 VIA (goes through_ 192.168.1.2)
+This will forward local port 8080 traffic to 192.168.1.1 port 80 VIA (goes through 192.168.1.2)
 
 
 
