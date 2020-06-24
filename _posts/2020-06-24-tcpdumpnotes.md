@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "tcpdump notes"
+title: "Tcpdump Notes"
 ---
 
 
@@ -31,7 +31,12 @@ sudo tcpdump -i eth0 -n 'host 192.168.1.2 and (port 137 or 138 or 139)'
 ![](/images/tcpdump/image_1.png)
 
 
-### To select hosts from a pcap:
+### To select hosts from a Pcap file:
 ```bash
  sudo tcpdump -n -r llmnr.pcap | cut -d " " -f3 | cut -d "." -f 1-4  | sort -u  
+```
+
+This assumes the ip and port are together such as:
+```bash
+192.168.2.1.80
 ```
