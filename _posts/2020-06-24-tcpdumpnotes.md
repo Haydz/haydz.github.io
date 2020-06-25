@@ -4,7 +4,7 @@ title: "Tcpdump Notes"
 ---
 
 
-I have been using tcpdump recently and wanted to note down some of the commands I have been using. For future reference.
+I have been using tcpdump recently and wanted to note down some of the commands Y'know, for future reference.
 
 # Cheat Sheet:
 ### To monitor certain ports:  
