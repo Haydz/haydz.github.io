@@ -56,17 +56,24 @@ Example whoami command execution
 
 
 ## HELK Baseline
+Side Note:
+* I might do a blog on which fields I find more helpful when moving around a SIEM such as ELK / Splunk.
 
 Standard Kibana as shown:
-![](/images/sysmon1/image_3.png)
+![2019 - Threat Hunting via Sysmon - SANS Blue Team Summit](/images/sysmon1/image_3.png)
 
 Searching for today, we can see 18,626 events:
 ![](/images/sysmon1/image_4.png)
 
 
 # SYSMON
+[](https://www.youtube.com/watch?v=7dEfKn70HCI)
+![](/images/sysmon1/image_19.png)
+
 
 ## Sysmon EventID 3
+
+
 The GoC2 creates a network connection. Lets see if we can identify the connection from the win10A host to DC01. This is via port 10000.
 
 If we search Microsoft [documentation](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon) for Sysmon we find that Event ID3 is for Network Connections.
@@ -264,21 +271,91 @@ Might be easier to view the JSON:
 
 Quite a read, but gives you an idea of what is included and what can be searched on.
 
+Important information
+* `process_name` = parent.exe
+* `network_protocol` =  TCP
+* `src_ip_address` = 172.16.2.10 (win10a)
+* `dst_ip_addr` = 172.16.2.15 (DC01)
 
-The `event_original_message` is what you would see within event viewer:
+So this event log, shows that an executable called parent.exe connected via TCP from win10a to DC01. From here we could pivot to Sysmon Event ID 1 and search the process. But lets continue.
+
+
+
+The `event_original_message` is what you would see within event viewer, or put another way, the message that is default before being parsed.
 ![](/images/sysmon1/image_15.png)
 
-Such as:
-* make sure to filter for Event ID: 3
+
+## Windows Event Viewer
+If these logs were not forwarded to HELK, one would have to search the Event Viewer. This is not scalable:
 
 ![](/images/sysmon1/image_16.png)
+
 
 Clearly the Kibana view is much nicer to work with than Windows event viewer:  
 ![](/images/sysmon1/image_17.png)
 
 
+No Sysmon == no events
+win10a didn't have Sysmon configured, missing installation. It seemed to be missing any tracking of port 10000.
 
 
+Searching for 100000 does not find any network connection related logs:
+
+![](/images/sysmon1/image_18.png)
+
+
+
+
+# Sysmon Event ID 1: Process Creation
+Sysmon ID 1 logs information on process creation:  
+
+![](/images/sysmon1/image_22.png)
+
+Using the identified process name above of `parent.exe` we can find more information. A query like this:
+
+![](/images/sysmon1/image_23.png)
+
+This bring up our suspected process:
+
+![](/images/sysmon1/image_24.png)
+
+The `event_original_message` is:
+
+![](/images/sysmon1/image_25.png)
+Important information found here:  
+* Hashes - we can search virus total to see if this is known, or for any more potential information
+* The User and privileges that this was launched with
+* The parent image that launched parent.exe - in this case this was simply launached via cmd and not powershell
+
+
+This C2 "parent" brokers communication between the admin itnerface and the child malware launched, as such the process creation only shows `parent.exe` being executed on the command line:
+
+![](/images/sysmon1/image_26.png)
+
+
+## A Gap in Visiblity
+We have been able to search the parent malware, but we are unable to identify the child malware. This is because the configuration for Sysmon, windows auditing and logging is not pushed down to win10a.
+
+We can see this via the hostnames found in Kibana:
+![](../images/sysmon1/image_27.png)
+
+
+
+
+<br>
+<br>
+<br>
+
+=== IN progress / Ideas === ===
+
+IMP HASHES
+harder to change
+overall hash can change by changing 1 bit
+![](/images/sysmon1/image_20.png)
+
+
+
+![](/images/sysmon1/image_21.png)
 
 
 
