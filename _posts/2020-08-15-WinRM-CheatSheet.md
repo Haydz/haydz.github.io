@@ -22,6 +22,8 @@ Enable-PSRemoting -Force
 If the machine is not connected to the Domain, you will need to adda  trusted host.
 
 
-{% highlight powershell linenos %}
+```powershell
 winrm s winrm/config/client '@{TrustedHosts="172.16.2.30"}'^C
+```
+{% highlight powershell linenos %}
 {% endhighlight %}
