@@ -21,16 +21,13 @@ Enable-PSRemoting -Force
 
 
 #Adding a trusted host
-If the machine is not connected to the Domain, you will need to adda  trusted host.
-
+If the machine is not connected to the Domain, you will need to adda   trusted host.
 
 ```powershell
 winrm s winrm/config/client '@{TrustedHosts="192.5.2.30"}'
 ```
 
 A great reference for editing the registry is ![here](https://blog.netwrix.com/2018/09/11/how-to-get-edit-create-and-delete-registry-keys-with-powershell/)
-
-
 
 
 #Running Remote Commands
