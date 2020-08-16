@@ -3,6 +3,8 @@ layout: posts
 title: "WinRM Cheatsheet & PowerShell Syntax"
 ---
 
+TL;DR Enable-PSRemoting | Invoke-Command
+
 I've been doing some PowerShell exercises within the ![Mosse Cyber Security Institute](https://www.mosse-institute.com/) Online Platform. Most exercises require demonstrating the PowerShell executing locally and remotely so this is a cheatsheet for enabling WinRM/PS-Remoting.
 
 
@@ -23,7 +25,18 @@ If the machine is not connected to the Domain, you will need to adda  trusted ho
 
 
 ```powershell
-winrm s winrm/config/client '@{TrustedHosts="172.16.2.30"}'^C
+winrm s winrm/config/client '@{TrustedHosts="192.5.2.30"}'
 ```
-{% highlight powershell linenos %}
-{% endhighlight %}
+
+A great reference for editing the registry is ![here](https://blog.netwrix.com/2018/09/11/how-to-get-edit-create-and-delete-registry-keys-with-powershell/)
+
+
+
+
+#Running Remote Commands
+Use `Invoke-Command` from ![here](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7)
+
+
+```powershell
+Invoke-Command -ComputerName WINB -ScriptBlock { echo "Hello World"}
+```
