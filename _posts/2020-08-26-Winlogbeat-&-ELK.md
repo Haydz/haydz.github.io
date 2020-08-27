@@ -3,7 +3,7 @@ layout: posts
 title: "Winlogbeat & ELK"
 ---
 
-TL;DR Create Logstash conf.d file to allow Winlogbeat to be ingested into Logstash. Change Winlogbeat config file to use Logstash instead of Elasticsearch.
+**TL;DR:** Create Logstash conf.d file to allow Winlogbeat to be ingested into Logstash. Change Winlogbeat config file to use Logstash instead of Elasticsearch.
 
 I had trouble installing ELK and configuring it to accept Winlogbeat, I went down a rabbit hole attempting to use Elasticsearch. This is an explanation of how to do it correctly without ELK being forced into 'production mode'.
 
