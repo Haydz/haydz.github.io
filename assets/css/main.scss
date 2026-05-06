@@ -1,0 +1,49 @@
+---
+# Custom stylesheet: imports Minimal Mistakes, then applies 1Password-inspired palette.
+---
+
+@charset "utf-8";
+
+// Navy / blue accent palette (inspired by 1Password marketing UI, not official brand assets)
+$background-color: #0c1218;
+$text-color: #e8edf2;
+$primary-color: #118cff;
+$info-color: #2eb8c8;
+
+$border-color: mix(#fff, $background-color, 18%);
+$code-background-color: mix(#fff, $background-color, 6%);
+$code-background-color-dark: mix(#000, $background-color, 15%);
+$form-background-color: mix(#000, $background-color, 12%);
+$footer-background-color: mix(#000, $background-color, 42%);
+
+$link-color: #47a8ff;
+$link-color-hover: #7ec0ff;
+$link-color-visited: #8eb4e0;
+
+$masthead-link-color: #c8d4e0;
+$masthead-link-color-hover: #47a8ff;
+$navicon-link-color-hover: #47a8ff;
+
+$focus-color: $primary-color;
+$muted-text-color: mix(#fff, $text-color, 32%);
+
+// Code highlighting (base16-style, cooler blues)
+$base00: #0f1419;
+$base01: #1a2332;
+$base02: #233044;
+$base03: #4a5f78;
+$base04: #8fa3b8;
+$base05: #dce6f0;
+$base06: #e8f0f8;
+$base07: #f5f9fc;
+$base08: #ff7a8a;
+$base09: #ffab6b;
+$base0a: #ffd96a;
+$base0b: #7dd99c;
+$base0c: #5cd4e0;
+$base0d: #6bb3ff;
+$base0e: #b89cff;
+$base0f: #ff6b8a;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";

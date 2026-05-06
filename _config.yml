@@ -21,13 +21,29 @@
 title: hackerrolls
 email: haydnit@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Security inclined. A scratchpad for posts, talks, and things I am learning
+  along the way — Haydn Johnson.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://haydz.github.io
 twitter_username: haydnjohnson
-github_username:  haydz
+github_username: haydz
+
+author:
+  name: "Haydn Johnson"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: >-
+    Security inclined. This site is a scratchpad: posts, talks, and things I am
+    learning along the way.
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/haydnjohnson/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/haydnjohnson"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/haydz"
 
 # Build settings
 #theme: minimal-mistakes-jekyll
@@ -39,11 +55,18 @@ plugins:
 remote_theme: "mmistakes/minimal-mistakes@4.19.1"
 
 defaults:
-  -
-    scope:
-      path: "posts" # an empty string here means all files in the project
+  - scope:
+      path: ""
+      type: posts
     values:
-      layout: "default"
+      layout: single
+      author_profile: true
+      read_time: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
 
 
 # Exclude from processing.
