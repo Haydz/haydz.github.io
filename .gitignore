@@ -3,3 +3,8 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Local dev / tooling
+.bundle/
+.venv-img/
+.vscode/
